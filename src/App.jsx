@@ -7,6 +7,10 @@ import Navbar from './layout/Navbar'
 import HeaderCarousel from './components/home/Hero'
 import GridSection from './components/home/GridSection'
 import Info from './components/home/Info'
+import Service from './components/home/Service'
+import EnergyCards from './components/home/Cards'
+import EnergyHeroSection from './components/home/Divider'
+import Footer from './layout/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,9 +21,10 @@ function App() {
     <HeaderCarousel/>
     <GridSection/>
     <Info/>
-      {/* <div className='bg-green-300'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis omnis consectetur dicta voluptatum ut culpa dolorum, a eaque nihil, quas quidem reprehenderit ad ipsum nemo, illum tenetur. Sit inventore voluptatem dolores aspernatur totam dignissimos tenetur? Quisquam optio, quaerat ullam modi illo provident ipsum vero ex?</div>
-
-      <Button>CLick me</Button> */}
+    <Service/>
+    <EnergyCards/>
+    <EnergyHeroSection/>
+    <Footer/>
     </>
   )
 }
