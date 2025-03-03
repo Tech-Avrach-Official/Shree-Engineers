@@ -1,6 +1,6 @@
 import React from "react";
 
-const TravelGrid = () => {
+const GridSection = () => {
   return (
     <div className="w-full h-full md:h-screen px-5 md:px-10 lg:px-40 py-20">
       <div className="w-full h-full gap-5 flex flex-col md:flex-row justify-center items-center">
@@ -144,4 +144,4 @@ const TravelGrid = () => {
   );
 };
 
-export default TravelGrid;
+export default GridSection;

@@ -8,7 +8,7 @@ import {
   FlaskConical
 } from "lucide-react";
 
-const EnergyCards = () => {
+const Cards = () => {
   const cards = [
     {
       title: "Petrolium Refinery",
@@ -87,4 +87,4 @@ const EnergyCards = () => {
   );
 };
 
-export default EnergyCards;
+export default Cards;

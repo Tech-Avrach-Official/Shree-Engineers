@@ -1,32 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { Button } from './components/ui/button'
-import Navbar from './layout/Navbar'
-import HeaderCarousel from './components/home/Hero'
-import GridSection from './components/home/GridSection'
-import Info from './components/home/Info'
-import Service from './components/home/Service'
-import EnergyCards from './components/home/Cards'
-import EnergyHeroSection from './components/home/Divider'
-import Footer from './layout/Footer'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-    <Navbar/>
-    <HeaderCarousel/>
-    <GridSection/>
-    <Info/>
-    <Service/>
-    <EnergyCards/>
-    <EnergyHeroSection/>
-    <Footer/>
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        {/* <Route path="/contact" element={<Contact />} /> */}
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;

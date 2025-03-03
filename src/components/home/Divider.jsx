@@ -1,6 +1,6 @@
 import React from "react";
 
-const EnergyHeroSection = () => {
+const Divider = () => {
   const stats = [
     {
       percentage: 75,
@@ -117,4 +117,4 @@ const EnergyHeroSection = () => {
   );
 };
 
-export default EnergyHeroSection;
+export default Divider;

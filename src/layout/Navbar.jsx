@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full md:px-40 md:fixed md:top-5 z-10 ">
+    <nav className="w-full md:px-40 z-10 ">
       <div className="bg-[#ffffff] shadow-md rounded-2xl px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
@@ -25,10 +26,10 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center justify-center flex-1">
             <div className="flex space-x-8">
-              <a href="#" className="text-gray-900 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
-              <a href="#" className="text-gray-500 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">About</a>
-              <a href="#" className="text-gray-500 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">Services</a>
-              <a href="#" className="text-gray-500 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+              <Link to="/" className="text-gray-900 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">Home</Link>
+              <Link to="/about" className="text-gray-500 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">About</Link>
+              <Link to="/" className="text-gray-500 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">Services</Link>
+              <Link to="/" className="text-gray-500 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">Contact</Link>
             </div>
           </div>
 
@@ -71,8 +72,8 @@ const Navbar = () => {
             transition={{ duration: 0.3, ease: "easeInOut" }}
           >
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 shadow-inner bg-gray-50">
-              <a href="#" className="block text-gray-900 hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium">Home</a>
-              <a href="#" className="block text-gray-500 hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium">About</a>
+              <Link to="/" className="block text-gray-900 hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium">Home</Link>
+              <Link to="/about" className="block text-gray-500 hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium">About</Link>
               <a href="#" className="block text-gray-500 hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium">Services</a>
               <a href="#" className="block text-gray-500 hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium">Contact</a>
               <div className="pt-2">
