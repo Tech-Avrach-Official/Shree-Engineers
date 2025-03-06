@@ -1,130 +1,415 @@
-import React from 'react';
+import React from "react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import { 
-  MapPin, 
-  Phone, 
-  Mail, 
-  Facebook, 
-  Twitter, 
-  Instagram, 
-  Linkedin 
-} from 'lucide-react';
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Clock,
+  Briefcase,
+  Building,
+  Factory,
+  Navigation,
+  HomeIcon,
+} from "lucide-react";
 
 const ContactPage = () => {
   return (
-    <div className="px-40 py-20 gap-8">
-      {/* Left Side - Message Form */}
-      <div className='grid grid-cols-1 p-10 bg-gray-100 md:grid-cols-2 gap-10'>
-        <div>
-        <h2 className="text-3xl font-bold mb-6">Message us, we will be in touch shortly</h2>
-        <p className="text-gray-600 mb-6">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque repudiandae nulla ducimus fugit vel, est amet iure quaerat nemo culpa dicta beatae quo exercitationem distinctio earum esse delectus nisi. Tempore repellendus ad, ipsam nulla ex illo saepe aspernatur, a possimus nobis numquam eaque quod expedita, enim quidem! Dolore repudiandae aliquam odit minima! Minima temporibus, veniam enim, illum libero, qui eligendi est velit unde architecto ullam in. Libero ratione aut voluptatum adipisci molestiae rerum tempora. Quibusdam dolor dolores cumque!
-        </p>
+    <div className="px-4 py-20 md:px-20 lg:px-40 gap-8">
+      {/* Header Section */}
+      <div className="mb-16">
+        <h1 className="text-lg text-center font-semibold">CONTACT US</h1>
+        <h2 className="text-4xl font-bold text-center mt-2">We Are Ready To Help You</h2>
+        <div className="flex justify-center mt-2 mb-12">
+          <div className="w-20 h-1 bg-yellow-400"></div>
+        </div>
 
-        {/* Social Media Icons */}
-        <div className="flex space-x-4 mb-6">
-          {[Facebook, Twitter, Instagram, Linkedin].map((Icon, index) => (
-            <div 
-              key={index} 
-              className="bg-yellow-400 p-3 rounded-md hover:bg-yellow-500 transition-colors"
-            >
-              <Icon size={24} className="text-black" />
+        {/* Main Contact Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <Briefcase className="text-yellow-400" size={28} />
+              </div>
             </div>
-          ))}
-        </div>
-        </div>
-
-        {/* Contact Form */}
-        <div>
-        <form className="space-y-4">
-          <div className="grid md:grid-cols-2 gap-4">
-            <Input placeholder="Name" className="bg-white h-12" />
-            <Input placeholder="Phone" className="bg-white h-12" />
+            <div>
+              <h3 className="font-semibold text-lg mb-1">Corporate Offices</h3>
+              <p className="text-gray-600">416, Prem Trade Centre, Maharani Road, Indore [M.P] 452 007, INDIA</p>
+            </div>
           </div>
-          <Input placeholder="Email" className="bg-white h-12" />
-          <Input placeholder="Company" className="bg-white h-12" />
-          <Input placeholder="Subject" className="bg-white h-12" />
-          <Textarea 
-            placeholder="Message"  
-            className="min-h-[150px] bg-white"
-          />
-          <Button 
-            className="w-full bg-yellow-400 text-black hover:bg-yellow-500"
-          >
-            Send Message
-          </Button>
-        </form>
 
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <Mail className="text-yellow-400" size={28} />
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-1">Send Email</h3>
+              <p className="text-gray-600">info@shreeengineers.in</p>
+            </div>
+          </div>
+
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <Clock className="text-yellow-400" size={28} />
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-1">Open Timing</h3>
+              <p className="text-gray-600">Mon - Sat: 10:30 AM - 7:30 PM</p>
+            </div>
+          </div>
         </div>
       </div>
 
-      {/* Right Side - Contact Information & Map */}
-      <div className='grid grid-cols-1 mt-20 md:grid-cols-2 border border-amber-400 p-10 rounded-2xl gap-10'>
-        {/* Embedded Google Map (placeholder) */}
-        <div className="w-full h-auto bg-gray-200">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.1691312421544!2d75.59259177507771!3d22.572776779491633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39625120dc848675%3A0x941728317abae187!2sSHREE%20INSULATIONS%20INDIA%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1741173244438!5m2!1sen!2sin" width="100%" height="100%" loading="lazy" ></iframe>
+      {/* Registered Offices Section */}
+      <div className="mb-16">
+        <h2 className="text-3xl font-bold text-center">Registered Offices</h2>
+        <h3 className="text-center text-gray-600 mt-1">SHREE ENGINEERS & CONTRACTORS PVT. LTD.</h3>
+        <div className="flex justify-center mt-2 mb-12">
+          <div className="w-20 h-1 bg-yellow-400"></div>
         </div>
 
-<div>
-<h3 className="text-2xl font-bold mb-6">Get in touch with us</h3>
-        <p className="text-gray-600 mb-6">
-          Explore some awesome contacts contact information & get solution for your problems.
-        </p>
-
-        {/* Contact Details */}
-        <div className="grid grid-cols-2 gap-4">
-          {/* Headquarters */}
-          <div className="flex items-center border border-yellow-400 p-4 rounded-md space-x-4">
-            <MapPin className="text-yellow-400" size={32} />
-            <div>
-              <h4 className="font-semibold">Headquarters</h4>
-              <p className="text-gray-600">123 Business Street, New York, NY 10001</p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <MapPin className="text-yellow-400" size={28} />
+              </div>
             </div>
-          </div>
-          <div className="flex items-center border border-yellow-400 p-4 rounded-md space-x-4">
-            <MapPin className="text-yellow-400" size={32} />
             <div>
-              <h4 className="font-semibold">Headquarters</h4>
-              <p className="text-gray-600">123 Business Street, New York, NY 10001</p>
-            </div>
-          </div>
-          <div className="flex items-center border border-yellow-400 p-4 rounded-md space-x-4">
-            <MapPin className="text-yellow-400" size={32} />
-            <div>
-              <h4 className="font-semibold">Headquarters</h4>
-              <p className="text-gray-600">123 Business Street, New York, NY 10001</p>
-            </div>
-          </div>
-          <div className="flex items-center border border-yellow-400 p-4 rounded-md space-x-4">
-            <MapPin className="text-yellow-400" size={32} />
-            <div>
-              <h4 className="font-semibold">Headquarters</h4>
-              <p className="text-gray-600">123 Business Street, New York, NY 10001</p>
+              <h3 className="font-semibold text-lg mb-1">Madhya Pradesh</h3>
+              <p className="text-gray-600">416, Prem Trade Centre, Maharani Road, Indore, Madhya Pradesh, India 452007</p>
             </div>
           </div>
 
-          {/* Call Us */}
-          {/* <div className="flex items-center space-x-4">
-            <Phone className="text-yellow-400" size={32} />
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <Phone className="text-yellow-400" size={28} />
+              </div>
+            </div>
             <div>
-              <h4 className="font-semibold">Call Us</h4>
-              <p className="text-gray-600">+1 (234) 567-8901</p>
-              <p className="text-gray-600">+1 (987) 654-3210</p>
+              <h3 className="font-semibold text-lg mb-1">Phone</h3>
+              <p className="text-gray-600">0731-4972217, 0731-4266310</p>
+              <p className="text-gray-600">08718812602, 09713008217</p>
             </div>
           </div>
 
-          <div className="flex items-center space-x-4">
-            <Mail className="text-yellow-400" size={32} />
-            <div>
-              <h4 className="font-semibold">Email Us</h4>
-              <p className="text-gray-600">contact@example.com</p>
-              <p className="text-gray-600">support@example.com</p>
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <Mail className="text-yellow-400" size={28} />
+              </div>
             </div>
-          </div> */}
+            <div>
+              <h3 className="font-semibold text-lg mb-1">Email</h3>
+              <p className="text-gray-600">info@shreeengineers.in</p>
+              <p className="text-gray-600">http://www.shreeengineers.in</p>
+            </div>
+          </div>
         </div>
-</div>
+      </div>
+
+      {/* Manufacturing Units Section */}
+      <div className="mb-16">
+        <h2 className="text-3xl font-bold text-center">Manufacturing Units</h2>
+        <h3 className="text-center text-gray-600 mt-1">SHREE CERAMIC FIBERS PVT. LTD. & SHREE POLY FOAM PVT. LTD</h3>
+        <div className="flex justify-center mt-2 mb-12">
+          <div className="w-20 h-1 bg-yellow-400"></div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <MapPin className="text-yellow-400" size={28} />
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-1">Madhya Pradesh</h3>
+              <p className="text-gray-600">Plot No. 622-626, Sector – III, Industrial Area, Pithampur, Dist. Dhar, Madhya Pradesh, India</p>
+            </div>
+          </div>
+
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <Phone className="text-yellow-400" size={28} />
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-1">Phone</h3>
+              <p className="text-gray-600">07292-653217</p>
+            </div>
+          </div>
+
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <Mail className="text-yellow-400" size={28} />
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-1">Email</h3>
+              <p className="text-gray-600">info@shreecera.com</p>
+              <p className="text-gray-600">Website: www.shreecera.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Operation Office Section */}
+      <div className="mb-16">
+        <h2 className="text-3xl font-bold text-center">Operation Office</h2>
+        <h3 className="text-center text-gray-600 mt-1">SHREE ENGINEERS & CONTRACTORS PVT. LTD</h3>
+        <div className="flex justify-center mt-2 mb-12">
+          <div className="w-20 h-1 bg-yellow-400"></div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <MapPin className="text-yellow-400" size={28} />
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-1">VADODARA</h3>
+              <p className="text-gray-600">JETALPUR ROAD, ALKAPURI, VADODARA 395 005, GUJARAT STATE</p>
+            </div>
+          </div>
+
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <Phone className="text-yellow-400" size={28} />
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-1">Phone</h3>
+              <p className="text-gray-600">0265-2330262, 91 - 7227850010</p>
+            </div>
+          </div>
+
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <Mail className="text-yellow-400" size={28} />
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-1">Email</h3>
+              <p className="text-gray-600">mau@shreeengineers.in</p>
+              <p className="text-gray-600">Website: www.shreecera.in</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Regional Offices Section */}
+      <div className="mb-16">
+        <h2 className="text-3xl font-bold text-center">Regional Offices</h2>
+        <h3 className="text-center text-gray-600 mt-1">SHREE ENGINEERS & CONTRACTORS PVT. LTD</h3>
+        <div className="flex justify-center mt-2 mb-12">
+          <div className="w-20 h-1 bg-yellow-400"></div>
+        </div>
+
+        {/* New Delhi */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <MapPin className="text-yellow-400" size={28} />
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-1">New Delhi</h3>
+              <p className="text-gray-600">Building No. 107, Type - B, Second Floor, Okhla Industrial Area, Phase-1, New Delhi - 110 020 India</p>
+            </div>
+          </div>
+
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <Phone className="text-yellow-400" size={28} />
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-1">Phone</h3>
+              <p className="text-gray-600">011-26213393, 09971075297</p>
+              <p className="text-gray-600">08527947914</p>
+            </div>
+          </div>
+
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <Mail className="text-yellow-400" size={28} />
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-1">Email</h3>
+              <p className="text-gray-600">pkgupta@shreeengineers.in</p>
+              <p className="text-gray-600">munjesh@shreeengineers.net.in</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Mumbai */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <MapPin className="text-yellow-400" size={28} />
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-1">Mumbai</h3>
+              <p className="text-gray-600">F-03, A-69, Plot No. 88-91, Nerul East, Sector 19A, New Mumbai (M Corp.), Maharashtra, India - 400706</p>
+            </div>
+          </div>
+
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <Phone className="text-yellow-400" size={28} />
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-1">Phone</h3>
+              <p className="text-gray-600">022-27727217, 09967497217</p>
+              <p className="text-gray-600">09594909217</p>
+            </div>
+          </div>
+
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <Mail className="text-yellow-400" size={28} />
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-1">Email</h3>
+              <p className="text-gray-600">S-Rajarams@shreecera.com</p>
+              <p className="text-gray-600">ashish@shreeengineers.net.in</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Kolkata */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <MapPin className="text-yellow-400" size={28} />
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-1">Kolkata</h3>
+              <p className="text-gray-600">Kolkata, India</p>
+            </div>
+          </div>
+
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <Phone className="text-yellow-400" size={28} />
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-1">Phone</h3>
+              <p className="text-gray-600">09339832918</p>
+            </div>
+          </div>
+
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <Mail className="text-yellow-400" size={28} />
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-1">Email</h3>
+              <p className="text-gray-600">bandodk@shreecera.in</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Chennai */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <MapPin className="text-yellow-400" size={28} />
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-1">Chennai</h3>
+              <p className="text-gray-600">Old No. 43, New No. 24, 1 Floor, Trunk Road, Porur, Chennai, India - 600116</p>
+            </div>
+          </div>
+
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <Phone className="text-yellow-400" size={28} />
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-1">Phone</h3>
+              <p className="text-gray-600">09943275456</p>
+            </div>
+          </div>
+
+          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <Mail className="text-yellow-400" size={28} />
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-1">Email</h3>
+              <p className="text-gray-600">jmaulchennai@shreeengineers.net.in</p>
+              <p className="text-gray-600">jmr@shreecera.co.in</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Contact Form Section */}
+      <div className="grid grid-cols-1 p-10 bg-gray-100 md:grid-cols-2 gap-10">
+        <div className="w-full h-auto bg-gray-200 min-h-80">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.1691312421544!2d75.59259177507771!3d22.572776779491633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39625120dc848675%3A0x941728317abae187!2sSHREE%20INSULATIONS%20INDIA%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1741173244438!5m2!1sen!2sin"
+            width="100%"
+            height="100%"
+            className="min-h-80"
+            loading="lazy"
+          ></iframe>
+        </div>
+
+        <div>
+          <form className="space-y-4">
+            <div className="grid md:grid-cols-2 gap-4">
+              <Input placeholder="Name" className="bg-white h-12" />
+              <Input placeholder="Phone" className="bg-white h-12" />
+            </div>
+            <Input placeholder="Email" className="bg-white h-12" />
+            <Input placeholder="Company" className="bg-white h-12" />
+            <Input placeholder="Subject" className="bg-white h-12" />
+            <Textarea
+              placeholder="Message"
+              className="min-h-[150px] bg-white"
+            />
+            <Button className="w-full bg-yellow-400 text-black hover:bg-yellow-500">
+              Send Message
+            </Button>
+          </form>
+        </div>
       </div>
     </div>
   );
