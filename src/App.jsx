@@ -4,6 +4,8 @@ import About from "./pages/about/About";
 import Gallery from "./pages/gallery/Gallery";
 import Contact from "./pages/contact/Contact";
 import Services from "./pages/services/Services";
+import Clientele from "./pages/clientele/Clientele";
+import Product from "./pages/product/Product";
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/projects" element={<Clientele />} />
+        <Route path="/products" element={<Product />} />
       </Routes>
     </Router>
   );
