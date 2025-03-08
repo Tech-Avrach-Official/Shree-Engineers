@@ -184,9 +184,9 @@ const BioSolubleProductPage = () => {
                   {renderTable(specTable)}
                 </React.Fragment>
               ))} */}
-              {activeProductData.specifications.map((specTable, index) => (
+              {/* {activeProductData.specifications.map((specTable, index) => (
                 
-              ))}
+              ))} */}
             </motion.div>
 
             {/* Applications and Features */}
