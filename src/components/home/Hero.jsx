@@ -8,6 +8,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade"; // This is important for the fade effect
+import { Link } from 'react-router-dom';
 
 const HeaderCarousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -101,12 +102,12 @@ const HeaderCarousel = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.6 }}
             >
-              <a 
-                href={slides[activeIndex].buttonLink} 
-                className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-8 rounded-lg inline-block transition-colors duration-300"
+              <Link 
+                to={slides[activeIndex].buttonLink} 
+                className="bg-primary text-black  font-medium py-3 px-8 rounded-lg "
               >
                 {slides[activeIndex].buttonText}
-              </a>
+              </Link>
             </motion.div>
           </motion.div>
         </AnimatePresence>

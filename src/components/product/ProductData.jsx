@@ -9,8 +9,8 @@ export const productsData = [
       "<strong>ShreeCera-:</strong>  Bio soluble fiber is highly acid resistant alkaline earth silicate (AES), ShreeCera Bio Soluble fiber is vindicated from the carcinogen classification in the . European Union under the terms of European Directive 67/548/EEC and the German Technical Rules for Hazardous Substances (TRGS 905). ShreeCera Bio Soluble ber has been developed to high temperature characteristics required to act as an alternative to RCF.",
     ],
     table: (
-      <div className="w-full mx-auto p-6 bg-white shadow-lg rounded-lg">
-        <h2 className="text-2xl font-bold text-center mb-4">
+      <div className="w-full md:p-6 bg-white py-5 md:shadow-lg rounded-lg">
+        <h2 className="text-xl md:text-2xl font-bold text-center mb-4">
           ShreeCera Bio Soluble Wool
         </h2>
         <table className="w-full border border-gray-300 text-left">
@@ -95,7 +95,7 @@ export const productsData = [
       "ShreeCera Bio Soluble Fiber has been developed to high temperature characteristics required to act as an alternative to RCF, depends on equipment and operating conditions. ShreeCera Bio soluble fiber blanket reveal exceptional insulating properties at high temperatures.",
     ],
     table: (
-      <div className="w-full mx-auto p-6 bg-white shadow-lg rounded-lg">
+      <div className="w-full md:p-6 bg-white py-5 md:shadow-lg rounded-lg">
         <h2 className="text-2xl font-bold text-center mb-4">
           ShreeCera Bio Soluble Wool
         </h2>
@@ -201,7 +201,7 @@ export const productsData = [
       "A backup blanket lining serves as safety lining serves as safety lining in all unlikely event of module failure. It also makes it convenient to provide vapour barrier for protection against attack of sulphur gases on the furnace sell.",
     ],
     table: (
-      <div className="w-full mx-auto p-6 bg-white shadow-lg rounded-lg">
+      <div className="w-full md:p-6 bg-white py-5 md:shadow-lg rounded-lg">
         <h2 className="text-2xl font-bold text-center mb-4">
           ShreeCera Bio Soluble Wool
         </h2>
@@ -327,7 +327,7 @@ export const productsData = [
       "ShreeCera boards are high stability and excellent performance. ShreeCera Bio Soluble fiber is vindicated from the carcinogen classification in the European Union under the terms of European Directive 67/548/EEC and the German Technical Rules for Hazardous Substances (TRGS 905).",
     ],
     table: (
-      <div className="w-full mx-auto p-6 bg-white shadow-lg rounded-lg">
+      <div className="w-full md:p-6 bg-white py-5 md:shadow-lg rounded-lg">
         <table className="w-full border border-gray-300 text-left">
           <tbody>
             <tr className="bg-gray-100 border-b border-gray-300">
@@ -448,7 +448,7 @@ export const productsData = [
       "ShreeCera Bio Soluble fiber is vindicated from the carcinogen classification in the European Union under the terms of European Directive 67/548/EEC and the German Technical Rules for Hazardous Substances (TRGS 905).",
     ],
     table: (
-      <div className="w-full mx-auto p-6 bg-white shadow-lg rounded-lg">
+      <div className="w-full md:p-6 bg-white py-5 md:shadow-lg rounded-lg">
       {/* <h2 className="text-2xl font-bold text-center mb-4">ShreeCera Bio Soluble Wool</h2> */}
       <table className="w-full border border-gray-300 text-left">
         <tbody>
@@ -541,7 +541,7 @@ export const productsData = [
       "<strong>ShreeCeraaaa-:</strong> ShreeCera Twisted Rope is a three-ply rope manufactured from ShreeCera long fiber yarn reinforced with fiber glass / SS wire It contains 15 – 20% organic carrier fiber to facilities the carding process which may burn off at a lower temperature. It is a dense resilient high temperature refractory, possessing excellent thermal properties, chemical stability and high mechanical strength.",
     ],
     table: (
-          <div className="w-full mx-auto p-6 bg-white shadow-lg rounded-lg">
+          <div className="w-full md:p-6 bg-white py-5 md:shadow-lg rounded-lg">
             {/* <h2 className="text-2xl font-bold text-center mb-4">SHREECERA ROPES</h2> */}
             <table className="w-full border border-gray-300 text-left">
               <tbody>
@@ -623,7 +623,7 @@ export const productsData = [
       "<strong>ShreeCeraaaa-:</strong> Wool is a light weight thermal insulation material produced by spun process from a high purity alumina-silica composition having long and high refractory properties and resistant to most chemical attack.",
     ],
     table: (
-      <div className="w-full mx-auto p-6 bg-white shadow-lg rounded-lg">
+      <div className="w-full md:p-6 bg-white py-5 md:shadow-lg rounded-lg">
       <h2 className="text-2xl font-bold text-center mb-4">SHREECERA CERAMIC FIBER WOOL</h2>
       <table className="w-full border border-gray-300 text-left">
         <tbody>
@@ -705,7 +705,7 @@ export const productsData = [
       "ShreeCera Blanket is made from high purity Alumina, Silica and Zirconia. It is highly efficient insulator with extremely low shrinkage characteristics."
     ],
     table: (
-      <div className="w-full mx-auto p-6 bg-white shadow-lg rounded-lg">
+      <div className="w-full md:p-6 bg-white py-5 md:shadow-lg rounded-lg">
       {/* <h2 className="text-2xl font-bold text-center mb-4">SHREECERA CERAMIC FIBER WOOL</h2> */}
       <table className="w-full border border-gray-300 text-left">
         <tbody>

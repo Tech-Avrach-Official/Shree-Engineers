@@ -93,7 +93,7 @@ const Project = () => {
                   
                   <div className="flex">
                     <div className="w-32 flex-shrink-0 text-gray-500 font-medium">Project Value:</div>
-                    <div className="text-blue-600 font-medium">{client.projectValue}</div>
+                    <div className="text-blue-600 font-medium">{client.projectValue || "N/A"}</div>
                   </div>
                   
                   {/* <motion.button

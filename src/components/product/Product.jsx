@@ -59,7 +59,7 @@ const ProductPage = () => {
       <div className="">
         <div className="flex flex-col md:flex-row gap-8">
           {/* Sidebar */}
-          <div className="md:w-1/4">
+          <div className="md:w-1/3 bg-white rounded-lg scrollbar-hide shadow-sm md:sticky md:top-4 md:h-screen md:overflow-y-auto p-5">
             <motion.div 
               className="mb-8"
               initial={{ x: -50, opacity: 0 }}

@@ -302,7 +302,7 @@ const ContactPage = () => {
 
         {/* Kolkata */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          <div className="flex items-center p-6 border border-gray-200 rounded-md">
+          {/* <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
               <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
                 <MapPin className="text-yellow-400" size={28} />
@@ -312,7 +312,7 @@ const ContactPage = () => {
               <h3 className="font-semibold text-lg mb-1">Kolkata</h3>
               <p className="text-gray-600">Kolkata, India</p>
             </div>
-          </div>
+          </div> */}
 
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
@@ -337,21 +337,6 @@ const ContactPage = () => {
               <p className="text-gray-600">bandodk@shreecera.in</p>
             </div>
           </div>
-        </div>
-
-        {/* Chennai */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="flex items-center p-6 border border-gray-200 rounded-md">
-            <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <MapPin className="text-yellow-400" size={28} />
-              </div>
-            </div>
-            <div>
-              <h3 className="font-semibold text-lg mb-1">Chennai</h3>
-              <p className="text-gray-600">Old No. 43, New No. 24, 1 Floor, Trunk Road, Porur, Chennai, India - 600116</p>
-            </div>
-          </div>
 
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
@@ -364,6 +349,23 @@ const ContactPage = () => {
               <p className="text-gray-600">09943275456</p>
             </div>
           </div>
+        </div>
+
+        {/* Chennai */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* <div className="flex items-center p-6 border border-gray-200 rounded-md">
+            <div className="flex-shrink-0 mr-4">
+              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
+                <MapPin className="text-yellow-400" size={28} />
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-1">Chennai</h3>
+              <p className="text-gray-600">Old No. 43, New No. 24, 1 Floor, Trunk Road, Porur, Chennai, India - 600116</p>
+            </div>
+          </div> */}
+
+          
 
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">

@@ -4,7 +4,7 @@ import { Button } from "../ui/button";
 const ServiceInfo = () => {
   return (
     <div>
-      <div className="py-20 px-40">
+      <div className="py-20 px-5 md:px-20 lg:px-40">
         <div>
           <h2 className="text-xl md:text-3xl font-bold">Our Values</h2>
         </div>
