@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <h1 className="text-third text-2xl font-bold">Logo</h1>
+            <h1 className="text-black text-2xl font-bold">Logo</h1>
           </div>
 
           {/* Desktop Navigation */}
@@ -29,43 +29,43 @@ const Navbar = () => {
             <div className="flex space-x-8">
               <Link 
                 to="/" 
-                className={`${isActive('/') ? 'text-third font-semibold bg-primary' : 'text-third'} hover:text-third hover:font-semibold hover:bg-primary px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
+                className={`${isActive('/') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
               >
                 Home
               </Link>
               <Link 
                 to="/about" 
-                className={`${isActive('/about') ? 'text-third font-semibold bg-primary' : 'text-third'} hover:text-third hover:font-semibold hover:bg-primary px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
+                className={`${isActive('/about') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
               >
                 About
               </Link>
               <Link 
                 to="/services" 
-                className={`${isActive('/services') ? 'text-third font-semibold bg-primary' : 'text-third'} hover:text-third hover:font-semibold hover:bg-primary px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
+                className={`${isActive('/services') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
               >
                 Services
               </Link>
               <Link 
                 to="/gallery" 
-                className={`${isActive('/gallery') ? 'text-third font-semibold bg-primary' : 'text-third'} hover:text-third hover:font-semibold hover:bg-primary px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
+                className={`${isActive('/gallery') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
               >
                 Gallery
               </Link>
               <Link 
                 to="/projects" 
-                className={`${isActive('/projects') ? 'text-third font-semibold bg-primary' : 'text-third'} hover:text-third hover:font-semibold hover:bg-primary px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
+                className={`${isActive('/projects') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
               >
                 Clientele
               </Link>
-              <Link 
+              {/* <Link 
                 to="/products" 
-                className={`${isActive('/products') ? 'text-third font-semibold bg-primary' : 'text-third'} hover:text-third hover:font-semibold hover:bg-primary px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
+                className={`${isActive('/products') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
               >
                 Products
-              </Link>
+              </Link> */}
               <Link 
                 to="/contact" 
-                className={`${isActive('/contact') ? 'text-third font-semibold bg-primary' : 'text-third'} hover:text-third hover:font-semibold hover:bg-primary px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
+                className={`${isActive('/contact') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
               >
                 Contact
               </Link>
@@ -74,7 +74,7 @@ const Navbar = () => {
 
           {/* Right Button */}
           <div className="hidden md:flex items-center">
-            <button className="bg-primary cursor-pointer text-thirdary px-4 py-2 rounded-md text-sm font-medium">
+            <button className="bg-yellow-400 cursor-pointer text-blackary px-4 py-2 rounded-md text-sm font-medium">
               Get Started
             </button>
           </div>

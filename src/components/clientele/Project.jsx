@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { ChevronRight, Info } from 'lucide-react';
+import { ChevronRight, Info, LocateIcon, MapPin } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { industries, clientsData } from './Data';
 
 const Project = () => {
-  const [activeIndustry, setActiveIndustry] = useState("PHARMACEUTICAL & BULK DRUGS");
+  const [activeIndustry, setActiveIndustry] = useState("CEMENT INDUSTRY");
 
   return (
     <div className="flex flex-col md:flex-row min-h-screen bg-gray-50">
@@ -57,67 +57,81 @@ const Project = () => {
         </motion.div>
         
         <AnimatePresence mode="wait">
-          <motion.div
-            key={activeIndustry}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.3 }}
-            className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6"
-          >
-            {clientsData[activeIndustry]?.map((client, index) => (
-              <motion.div
-                key={client.id}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                // whileHover={{ y: -5 }}
-                className="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all cursor-pointer"
-              >
-                <div className="flex items-center p-6 bg-gray-50 border-b border-gray-100">
-                  <div className="w-14 h-14 bg-white rounded-lg border border-gray-100 flex items-center justify-center mr-4 flex-shrink-0">
-                    <img 
-                      src={client.logo || "/api/placeholder/60/60"} 
-                      alt={`${client.name} Logo`} 
-                      className="max-w-full max-h-full object-contain"
-                    />
-                  </div>
-                  <h2 className="text-base font-semibold text-gray-800">{client.name}</h2>
-                </div>
-                
-                <div className="p-6">
-                  <div className="flex mb-4">
-                    <div className="w-32 flex-shrink-0 text-gray-500 font-medium">Location:</div>
-                    <div className="text-gray-800">{client.location}</div>
-                  </div>
-                  
-                  <div className="flex">
-                    <div className="w-32 flex-shrink-0 text-gray-500 font-medium">Project Value:</div>
-                    <div className="text-blue-600 font-medium">{client.projectValue || "N/A"}</div>
-                  </div>
-                  
-                  {/* <motion.button
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="mt-4 flex items-center text-blue-500 font-medium text-sm"
-                  >
-                    <Info size={16} className="mr-1" />
-                    View Details
-                  </motion.button> */}
-                </div>
-              </motion.div>
-            ))}
-            
-            {!clientsData[activeIndustry] || clientsData[activeIndustry].length === 0 ? (
-              <div className="col-span-full flex justify-center items-center py-16 text-gray-500">
-                No clients found for this industry.
-              </div>
-            ) : null}
-          </motion.div>
-        </AnimatePresence>
+      <motion.div
+        key={activeIndustry}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.3 }}
+        className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6"
+      >
+        {clientsData[activeIndustry]?.map((client, index) => (
+          <ClientCard key={client.id} client={client} index={index} />
+        ))}
+        
+        {!clientsData[activeIndustry] || clientsData[activeIndustry].length === 0 ? (
+          <div className="col-span-full flex justify-center items-center py-16 text-gray-500">
+            No clients found for this industry.
+          </div>
+        ) : null}
+      </motion.div>
+    </AnimatePresence>
       </div>
     </div>
   );
 };
 
 export default Project;
+
+
+const ClientCard = ({ client, index }) => {
+  const [isHovered, setIsHovered] = useState(false);
+  
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: index * 0.1 }}
+      className="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all cursor-pointer relative overflow-hidden"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      <div className="flex flex-col items-center p-6 bg-gray-50 border-b border-gray-100 relative">
+        {/* Location overlay that appears on hover */}
+        <AnimatePresence>
+          {isHovered && client.location && (
+            <motion.div 
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.2 }}
+              className="absolute inset-0 bg-[#00000080] backdrop-blur-sm flex items-center justify-center z-10 p-4"
+            >
+              <div className="text-white text-center">
+                <div className="text-xl font-medium mb-1">
+                Location</div>
+                <div className="font-bold text-xl">{client.location}</div>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+        
+        <div className="w-full h-40 bg-white rounded-lg border border-gray-100 flex items-center justify-center flex-shrink-0">
+          <img 
+            src={client.logo || "/api/placeholder/60/60"} 
+            alt={`${client.name} Logo`} 
+            className="max-w-full max-h-full object-contain"
+          />
+        </div>
+        <h2 className="text-base mt-2 font-semibold text-gray-800">{client.name}</h2>
+      </div>
+      
+      <div className="p-6">
+        <div className="flex">
+          <div className="w-32 flex-shrink-0 text-gray-500 font-medium">Project Value:</div>
+          <div className="text-blue-600 font-medium">{client.projectValue || "N/A"}</div>
+        </div>
+      </div>
+    </motion.div>
+  );
+};

@@ -131,7 +131,7 @@ const ContactPage = () => {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-1">Madhya Pradesh</h3>
-              <p className="text-gray-600">Plot No. 622-626, Sector – III, Industrial Area, Pithampur, Dist. Dhar, Madhya Pradesh, India</p>
+              <p className="text-gray-600">Smart Industrial Park Natrip, Plot No. 72, near NATRAX, Pithampur, Asukhedi, Madhya Pradesh 454775</p>
             </div>
           </div>
 
