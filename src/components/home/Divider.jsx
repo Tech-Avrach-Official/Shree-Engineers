@@ -1,24 +1,25 @@
+import { Phone } from "lucide-react";
 import React from "react";
 
 const Divider = () => {
   const stats = [
     {
-      percentage: 75,
-      title: "Refining Capacity",
+      icon: Phone,
+      title: "20+ YEARS EXPERIENCE",
       description: "Nec maecenas neque potenti felis eget."
     },
     {
-      percentage: 87,
-      title: "Crude Oil Prod",
+      icon: Phone,
+      title: "500 + TASKFORCE",
       description: "Nec maecenas neque potenti felis eget."
     },
     {
-      percentage: 95,
-      title: "Satisfied Clients",
+      icon: Phone,
+      title: "40K+ CLIENTS",
       description: "Nec maecenas neque potenti felis eget."
     },
     {
-      percentage: 92,
+      icon: Phone,
       title: "Project Successful",
       description: "Nec maecenas neque potenti felis eget."
     }
@@ -48,13 +49,12 @@ const Divider = () => {
       <div className="relative bg-black/50 px-5 sm:px-20 lg:px-40 py-20 h-full w-full flex flex-col gap-20 md:flex-row items-center">
         {/* Left Content */}
         <div className="w-full md:w-1/2">
-          <h6 className="text-gray-300 font-medium mb-2">Let's Be Great Together</h6>
+          {/* <h6 className="text-gray-300 font-medium mb-2">Our commitments</h6> */}
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
-            Powerful solutions for a<br />sustainable future
+          Our commitments
           </h1>
-          <p className="text-gray-300 mb-6 max-w-lg">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, 
-            luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          <p className="text-gray-300 text-base mb-6 max-w-lg">
+          Quality, Safety and Punctuality 
           </p>
           <button className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-medium px-6 py-3 uppercase text-sm tracking-wider transition-colors duration-300">
             Discover More
@@ -65,47 +65,16 @@ const Divider = () => {
         <div className="w-full md:w-1/2 ">
           <div className="grid grid-cols-2 gap-8">
             {stats.map((stat, index) => (
-              <div key={index} className="flex items-center">
-                <div className="relative">
-                  {/* Circular progress indicator */}
-                  <svg className="w-16 h-16" viewBox="0 0 100 100">
-                    {/* Background circle */}
-                    <circle
-                      cx="50"
-                      cy="50"
-                      r="40"
-                      fill="transparent"
-                      stroke="#333333"
-                      strokeWidth="8"
-                    />
-                    {/* Progress circle */}
-                    <circle
-                      cx="50"
-                      cy="50"
-                      r="40"
-                      fill="transparent"
-                      stroke="#FACC15"
-                      strokeWidth="8"
-                      strokeDasharray={`${(Math.PI * 80) * (stat.percentage / 100)} ${Math.PI * 80}`}
-                      strokeDashoffset={(Math.PI * 80) * 0.25}
-                      transform="rotate(-90 50 50)"
-                    />
-                    {/* Percentage text */}
-                    <text
-                      x="50"
-                      y="55"
-                      fontFamily="Arial"
-                      fontSize="20"
-                      fontWeight="bold"
-                      textAnchor="middle"
-                      fill="white"
-                    >
-                      {stat.percentage}%
-                    </text>
-                  </svg>
-                  <div className="ml-4 text-white">
-                    <h3 className="font-medium">{stat.title}</h3>
-                    <p className="text-xs text-gray-400">{stat.description}</p>
+              <div key={index}>
+                <div className="bg-[#00000086] py-5 rounded-lg">
+                  <div className="flex items-center justify-center">
+                    <div className="w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center">
+                    <stat.icon size={32} className="text-white mx-auto" />
+                    </div>
+                  </div>
+                  <div className="mt-3 text-white">
+                    <h3 className="font-semibold text-lg text-center">{stat.title}</h3>
+                    {/* <p className="text-sm text-gray-400 text-center">{stat.description}</p> */}
                   </div>
                 </div>
               </div>

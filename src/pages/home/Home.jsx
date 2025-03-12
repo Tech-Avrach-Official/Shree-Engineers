@@ -2,6 +2,8 @@ import Cards from '@/components/home/Cards'
 import Divider from '@/components/home/Divider'
 import GridSection from '@/components/home/GridSection'
 import HeaderCarousel from '@/components/home/Hero'
+import HomeContent from '@/components/home/homeContent'
+import HomeService from '@/components/home/HomeService'
 import Info from '@/components/home/Info'
 import Service from '@/components/home/Service'
 import Footer from '@/layout/Footer'
@@ -17,9 +19,11 @@ const Home = () => {
     <Navbar/>
     <HeaderCarousel/>
     <GridSection/>
-    <Service/>
-    <Info/>
-    <Cards/>
+    <HomeService/>
+    {/* <HomeContent/> */}
+    {/* <Service/> */}
+    {/* <Info/> */}
+    {/* <Cards/> */}
     <Divider/>
     <Footer/>
     </>

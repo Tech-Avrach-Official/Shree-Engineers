@@ -63,20 +63,20 @@ const Navbar = () => {
               >
                 Products
               </Link> */}
-              <Link 
+              {/* <Link 
                 to="/contact" 
                 className={`${isActive('/contact') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
               >
                 Contact
-              </Link>
+              </Link> */}
             </div>
           </div>
 
           {/* Right Button */}
           <div className="hidden md:flex items-center">
-            <button className="bg-yellow-400 cursor-pointer text-blackary px-4 py-2 rounded-md text-sm font-medium">
-              Get Started
-            </button>
+            <Link to="/contact" className="bg-yellow-400 cursor-pointer text-blackary px-4 py-2 rounded-md text-sm font-medium">
+              Contact
+            </Link>
           </div>
 
           {/* Mobile menu button */}
