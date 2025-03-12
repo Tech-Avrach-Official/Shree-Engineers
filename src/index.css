@@ -9,46 +9,70 @@
 @import "tailwindcss";
 @plugin "tailwindcss-animate";
 
-/* Custom Theme Variables */
-/* @layer base {
+@layer base {
   :root {
-    --primary: rgb(255, 234, 0);
-    --secondary: rgb(255, 73, 73);
-    --thirdary: rgb(26, 255, 0); 
+    --primary: rgb(0, 121, 177);
+    --secondry: rgb(246, 128, 29);
+    /* --third: rgb(67, 67, 67);
     --four: rgb(255, 255, 255);
-
     --text-primary: rgb(255, 255, 255);
     --text-secondary: rgb(0, 0, 0);
-    --text-thirdary: rgb(67, 67, 67);
-
+    --text-thirdary:rgb(67, 67, 67);
     --background: rgb(255, 255, 255);
     --foreground: rgb(10, 25, 40);
-
+    --card: rgb(255, 255, 255);
+    --card-foreground: rgb(10, 25, 40);
+    --popover: rgb(255, 255, 255);
+    --popover-foreground: rgb(10, 25, 40); */
+    /* --primary: rgb(0, 0, 0);
+    --primary-foreground: rgb(243, 245, 247);
+    --secondary: rgb(238, 243, 247);
+    --secondary-foreground: rgb(16, 30, 51);
+    --muted: rgb(238, 243, 247);
+    --muted-foreground: rgb(103, 113, 133);
+    --accent: rgb(238, 243, 247);
+    --accent-foreground: rgb(16, 30, 51);
+    --destructive: rgb(255, 63, 50);
+    --destructive-foreground: rgb(243, 245, 247);
     --border: rgb(233, 236, 239);
     --input: rgb(233, 236, 239);
     --ring: rgb(10, 25, 40);
-
     --radius: 0.5rem;
-  } */
+    --chart-1: rgb(255, 162, 55);
+    --chart-2: rgb(70, 180, 160);
+    --chart-3: rgb(74, 98, 148);
+    --chart-4: rgb(125, 207, 139);
+    --chart-5: rgb(255, 195, 105); */
+  }
 
-  /* Dark mode variables */
   /* .dark {
-    --background: rgb(10, 25, 40);
+    --background: rgb(255, 255, 255);
     --foreground: rgb(243, 245, 247);
+    --card: rgb(10, 25, 40);
+    --card-foreground: rgb(243, 245, 247);
+    --popover: rgb(10, 25, 40);
+    --popover-foreground: rgb(243, 245, 247);
     --primary: rgb(243, 245, 247);
+    --primary-foreground: rgb(16, 30, 51);
     --secondary: rgb(37, 52, 66);
-    --thirdary: rgb(0, 168, 107); 
-  }
-} */
+    --secondary-foreground: rgb(243, 245, 247);
+    --muted: rgb(37, 52, 66);
+    --muted-foreground: rgb(164, 183, 222);
+    --accent: rgb(37, 52, 66);
+    --accent-foreground: rgb(243, 245, 247);
+    --destructive: rgb(89, 16, 13);
+    --destructive-foreground: rgb(243, 245, 247);
+    --border: rgb(37, 52, 66);
+    --input: rgb(37, 52, 66);
+    --ring: rgb(89, 16, 13);
+    --chart-1: rgb(64, 111, 246);
+    --chart-2: rgb(67, 204, 176);
+    --chart-3: rgb(243, 133, 93);
+    --chart-4: rgb(139, 103, 191);
+    --chart-5: rgb(191, 65, 182);
+  } */
+}
 
-/* @layer base {
-  * {
-    @apply  outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-} */
 
 /* Hide scrollbar */
 .scrollbar-hide {

@@ -7,9 +7,23 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "rgb(255, 234, 0)",
-        secondary: "rgb(255, 73, 73)",
-        thirdary: "rgb(26, 255, 0)", // ✅ Use direct color instead of var()
+        primary: "var(--primary)",
+        secondry: "var(--secondry)",
+        // third: "var(--third)",
+        // four: "var(--four)",
+        // border: "var(--border)",
+        // input: "var(--input)",
+        // ring: "var(--ring)",
+        // background: "var(--background)",
+        // foreground: "var(--foreground)",
+        primary: {
+          DEFAULT: "var(--primary)",
+          foreground: "var(--primary-foreground)",
+        },
+        secondary: {
+          DEFAULT: "var(--secondary)",
+          foreground: "var(--secondary-foreground)",
+        },// ✅ Use direct color instead of var()
       },
     },
   },

@@ -318,37 +318,37 @@ export const clientsData = {
     },
     {
       "id": "power-2",
-      "name": "Vadinar Power Company LTD.",
-      "logo": "https://via.placeholder.com/100",
-      "location": "(Essar Oil) Vadinar",
-      "projectValue": "Approx value 302 Lacs"
-    },
-    {
-      "id": "power-3",
       "name": "Gujarat State Electricity Corporation Ltd.",
       "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741697732/Image-Shree/POWER/ak5uqdsg9v5ojfejslb8.jpg",
       "location": "(Gujarat)",
       "projectValue": "Approx value 250 Lacs"
     },
     {
-      "id": "power-4",
+      "id": "power-3",
       "name": "Thermax Limited",
       "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741697732/Image-Shree/POWER/csduvqp8rtpbuibowbgw.png",
       "location": "(NTPC Projects)",
       "projectValue": "Approx value 882 Lacs"
     },
     {
-      "id": "power-5",
+      "id": "power-4",
       "name": "NTPC Ltd.",
       "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741697734/Image-Shree/POWER/cz3mtyeqvgesuc5ahint.png",
       "location": "Sipat, Korba, Vindhyangar, Chennai",
       "projectValue": "Approx value 70 Lacs"
     },
     {
-      "id": "power-6",
+      "id": "power-5",
       "name": "NTPC Alstom Ltd.",
       "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741697734/Image-Shree/POWER/cz3mtyeqvgesuc5ahint.png",
       "location": "Ukai / Wanakbori",
+      "projectValue": "Approx value 70 Lacs"
+    },
+    {
+      "id": "power-6",
+      "name": "Nuclear Power Corporation of India Ltd.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741697734/Image-Shree/POWER/orkilejoqh4k5dkltb6l.png",
+      "location": "Tarapur",
       "projectValue": "Approx value 70 Lacs"
     },
     {
@@ -360,53 +360,53 @@ export const clientsData = {
     },
     {
       "id": "power-8",
-      "name": "Panipat Thermal Power Station Ltd.",
-      "logo": "https://via.placeholder.com/100",
-      "location": "Panipat Haryana",
-      "projectValue": "Approx value 70 Lacs"
-    },
-    {
-      "id": "power-9",
-      "name": "Nuclear Power Corporation of India Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741697734/Image-Shree/POWER/orkilejoqh4k5dkltb6l.png",
-      "location": "Tarapur",
-      "projectValue": "Approx value 70 Lacs"
-    },
-    {
-      "id": "power-10",
-      "name": "Vandana Vidyut Limited, Ltd.",
-      "logo": "https://via.placeholder.com/100",
-      "location": "Korba (CG)",
-      "projectValue": "Approx value 50 Lacs"
-    },
-    {
-      "id": "power-11",
       "name": "ACB (India) Limited Ltd.",
       "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741697731/Image-Shree/POWER/nkjapzdjuijwc4kx1lcs.jpg",
       "location": "Korba (CG)",
       "projectValue": "Approx value 40 Lacs"
     },
     {
-      "id": "power-12",
-      "name": "Rajiv Gandhi Thermal Power Limited.",
-      "logo": "https://via.placeholder.com/100",
-      "location": "Hisar",
-      "projectValue": "Approx value 34 Lacs"
-    },
-    {
-      "id": "power-13",
+      "id": "power-9",
       "name": "Power Mech Projects Limited.",
       "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741697732/Image-Shree/POWER/lenxmhj9natl0rardm0g.png",
       "location": "-",
       "projectValue": "Approx value 30 Lacs"
     },
     {
-      "id": "power-14",
+      "id": "power-10",
       "name": "SKS Power Generation Limited.",
       "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741697733/Image-Shree/POWER/mlunoti3wlvndl3x3jtz.png",
       "location": "Daramunda",
       "projectValue": "Approx value 70 Lacs"
-    }
+    },
+    {
+      "id": "power-11",
+      "name": "Vadinar Power Company LTD.",
+      "logo": "https://via.placeholder.com/100",
+      "location": "(Essar Oil) Vadinar",
+      "projectValue": "Approx value 302 Lacs"
+    },
+    {
+      "id": "power-12",
+      "name": "Panipat Thermal Power Station Ltd.",
+      "logo": "https://via.placeholder.com/100",
+      "location": "Panipat Haryana",
+      "projectValue": "Approx value 70 Lacs"
+    },
+    {
+      "id": "power-13",
+      "name": "Vandana Vidyut Limited, Ltd.",
+      "logo": "https://via.placeholder.com/100",
+      "location": "Korba (CG)",
+      "projectValue": "Approx value 50 Lacs"
+    },
+    {
+      "id": "power-14",
+      "name": "Rajiv Gandhi Thermal Power Limited.",
+      "logo": "https://via.placeholder.com/100",
+      "location": "Hisar",
+      "projectValue": "Approx value 34 Lacs"
+    },
   ],
     "AUTOMOBILE INDUSTRIES": [
         {
@@ -617,33 +617,32 @@ export const clientsData = {
           },
     ],
     "SOLVENT EXTRACTION PLANTS": [
-    {
-      "id": "solvent-1",
-      "name": "Dhanlaxmi Solvent Pvt. Ltd.",
-      "logo": "https://via.placeholder.com/100",
-      "location": "All Units",
-      "projectValue": "Approx value 150 Lacs"
-    },
-    {
-      "id": "solvent-2",
+      {
+        "id": "solvent-1",
       "name": "Cargill Oils Ltd.",
       "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741699930/Image-Shree/solvent/az4feespgohphm5zswqg.jpg",
       "location": "Kurkumbh (MH), Orissa",
       "projectValue": "Approx value 100 Lacs"
     },
     {
-      "id": "solvent-3",
+      "id": "solvent-2",
       "name": "Vippy Industries LTD.",
       "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741699931/Image-Shree/solvent/ht4iyblp57fcapjpuwva.webp",
       "location": "Dewas (M.P)",
       "projectValue": "Approx value 35 Lacs"
     },
     {
-      "id": "solvent-4",
+      "id": "solvent-3",
       "name": "Ruchi Soya LTD.",
       "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741699930/Image-Shree/solvent/nbjq41mi0ekz2jq0emqz.png",
       "location": "Pipariya, Gadarwara (M.P.), Project",
       "projectValue": "Approx value 25 Lacs"
+    },
+    {
+      "id": "solvent-4",
+      "name": "Khaitan LTD.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741699930/Image-Shree/solvent/akjdo62fcbwgnaaagot9.jpg",
+      "location": "Agro Ratlam"
     },
     {
       "id": "solvent-5",
@@ -654,10 +653,11 @@ export const clientsData = {
     },
     {
       "id": "solvent-6",
-      "name": "Khaitan LTD.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741699930/Image-Shree/solvent/akjdo62fcbwgnaaagot9.jpg",
-      "location": "Agro Ratlam"
-    }
+      "name": "Dhanlaxmi Solvent Pvt. Ltd.",
+      "logo": "https://via.placeholder.com/100",
+      "location": "All Units",
+      "projectValue": "Approx value 150 Lacs"
+    },
   ],
   "TEXTILES INDUSTRIES": [
     {
