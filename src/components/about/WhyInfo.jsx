@@ -36,11 +36,11 @@ const WhyInfo = () => {
 
   return (
     <div className="px-5 md:px-20 lg:px-40 py-12">
-     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 items-center justify-center gap-6 '>
+     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 items-center justify-center gap-10 '>
      <div className='py-10'>
       <div>
         <h1 className='text-center text-2xl font-bold'>Shree Engineers & Contractors Limited</h1>
-        <p className="text-base mt-5 text-gray-600 mb-4">Shree Engineers & Contractors Limited, an ISO 9001:2015 and 45001:2018 certified Company, is a leading service provider of hot, cold, and acoustic insulation solutions. With more than 20 years of experience serving diverse industrial segments, our company is renowned for its expertise and commitment to excellence. Our team of highly qualified and experienced engineers is dedicated to continuous innovation and the pursuit of exceptional opportunities.</p>
+        <p className="text-base mt-5 text-justify text-gray-600 mb-4">Shree Engineers & Contractors Limited, an ISO 9001:2015 and 45001:2018 certified Company, is a leading service provider of hot, cold, and acoustic insulation solutions. With more than 20 years of experience serving diverse industrial segments, our company is renowned for its expertise and commitment to excellence. Our team of highly qualified and experienced engineers is dedicated to continuous innovation and the pursuit of exceptional opportunities.</p>
       </div>
      <div className="grid grid-cols-1 md:grid-cols-2 mt-5 lg:grid-cols-2 gap-6">
         {services.map((service, index) => (

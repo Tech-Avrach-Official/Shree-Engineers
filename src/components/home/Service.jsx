@@ -11,7 +11,7 @@ const Service = () => {
             <div>
               {/* <p className='text-base sm:text-lg font-semibold'>Advantages</p> */}
               <h1 className='text-2xl mt-2 md:mt-3 font-bold'>Our Expertise</h1>
-              <p className='text-sm sm:text-base text-gray-600 mt-2 md:mt-5'>With years of experience and a team of skilled professionals, we bring a wealth of expertise to every project. We collaborate closely with our clients to deliver apt solutions that meet specific requirements and exceed expectations.</p>
+              <p className='text-sm sm:text-base text-justify text-gray-600 mt-2 md:mt-5'>With years of experience and a team of skilled professionals, we bring a wealth of expertise to every project. We collaborate closely with our clients to deliver apt solutions that meet specific requirements and exceed expectations.</p>
               <div className='grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-5 mt-3 sm:mt-5'>
                 <div className='p-3 sm:p-5 bg-white rounded-md'>
                   <ShieldCheck size={24} className="sm:w-8 sm:h-8" />

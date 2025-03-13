@@ -51,14 +51,14 @@ const Divider = () => {
         <div className="w-full md:w-1/2">
           {/* <h6 className="text-gray-300 font-medium mb-2">Our commitments</h6> */}
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
-          Our commitments
-          </h1>
-          <p className="text-gray-300 text-base mb-6 max-w-lg">
           Quality, Safety and Punctuality 
+          </h1>
+          <p className="text-gray-300 text-lg font-semibold mb-6 max-w-lg">
+          Our commitments
           </p>
-          <button className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-medium px-6 py-3 uppercase text-sm tracking-wider transition-colors duration-300">
+          {/* <button className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-medium px-6 py-3 uppercase text-sm tracking-wider transition-colors duration-300">
             Discover More
-          </button>
+          </button> */}
         </div>
         
         {/* Right Content - Stats */}

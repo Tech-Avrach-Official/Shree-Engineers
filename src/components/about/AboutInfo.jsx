@@ -4,7 +4,7 @@ const AboutInfo = () => {
   return (
     <div className='py-8  sm:py-12 lg:pt-20 px-4 sm:px-8 lg:px-40'>
        <div className='bg-gray-100 p-5 md:p-10 rounded-2xl'>
-       <h1 className='text-2xl sm:text-3xl md:text-4xl font-bold text-center'>WHAT WE ARE</h1>
+       <h1 className='text-2xl sm:text-3xl md:text-4xl font-bold text-center'>About</h1>
        <p className='text-justify mt-5 text-gray-600'><span className='font-bold text-black'>Shree Engineers & Contractors Limited</span>, A One Stop Solution for Thermal Insulations service, takes much pride for being one of the pioneers in the thermal insulation industry. an ISO 9001:2015 and 45001:2018 certified Company, our expertise encompasses a wide range of insulation services, including thermal insulation for both hot and cold applications, as well as acoustic insulation for noise reduction. We are committed to delivering tailored solutions that meet the unique needs of each project, ensuring optimal performance and long-lasting results
         <br />
         <br />

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link, useLocation } from 'react-router-dom';
+import Logo from '../assets/Logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,10 +19,11 @@ const Navbar = () => {
   return (
     <nav className="w-full px-5 md:px-40 z-10 ">
       <div className="">
-        <div className="flex justify-between h-16 items-center">
+        <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <h1 className="text-black text-2xl font-bold">Logo</h1>
+            {/* <h1 className="text-black text-2xl font-bold">Logo</h1> */}
+            <img src={Logo} alt="Logo" className='w-24' />
           </div>
 
           {/* Desktop Navigation */}
@@ -29,31 +31,31 @@ const Navbar = () => {
             <div className="flex space-x-8">
               <Link 
                 to="/" 
-                className={`${isActive('/') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
+                className={`${isActive('/') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
               >
                 Home
               </Link>
               <Link 
                 to="/about" 
-                className={`${isActive('/about') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
+                className={`${isActive('/about') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
               >
                 About
               </Link>
               <Link 
                 to="/services" 
-                className={`${isActive('/services') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
+                className={`${isActive('/services') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
               >
                 Services
               </Link>
               <Link 
                 to="/gallery" 
-                className={`${isActive('/gallery') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
+                className={`${isActive('/gallery') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
               >
                 Gallery
               </Link>
               <Link 
                 to="/projects" 
-                className={`${isActive('/projects') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
+                className={`${isActive('/projects') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
               >
                 Clientele
               </Link>
@@ -110,7 +112,7 @@ const Navbar = () => {
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
           >
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 shadow-inner bg-gray-50">
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 ">
               <Link 
                 to="/" 
                 className={`block ${isActive('/') ? 'text-indigo-600 bg-indigo-50 font-semibold' : 'text-gray-500'} hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
@@ -147,16 +149,16 @@ const Navbar = () => {
               >
                 Products
               </Link>
-              <Link 
+              {/* <Link 
                 to="/contact" 
                 className={`block ${isActive('/contact') ? 'text-indigo-600 bg-indigo-50 font-semibold' : 'text-gray-500'} hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
               >
                 Contact
-              </Link>
+              </Link> */}
               <div className="pt-2">
-                <button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-md text-sm font-medium">
-                  Get Started
-                </button>
+                <Link to="/contact" className="w-full bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-md text-sm font-medium">
+                  Contact
+                </Link>
               </div>
             </div>
           </motion.div>
