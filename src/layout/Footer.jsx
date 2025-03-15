@@ -3,7 +3,7 @@ import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-20 px-5 md:px-20 lg:px-40">
+    <footer className="bg-[#283B59] text-gray-300 py-20 px-5 md:px-20 lg:px-40">
       <div className="">
           {/* Logo and Description */}
           <div className='flex flex-col gap-10 lg:flex-row  justify-between'>

@@ -36,17 +36,17 @@ const ThermalInsulationServices = () => {
   return (
     <div className="bg-gray-50 text-gray-800 font-sans">
       {/* Hero Section */}
-      <section className="relative bg-[#c0c9ff6d] text-white text-center py-14 md:py-32 px-5 md:px-40 overflow-hidden">
+      <section className="relative bg-[#ebebeb6d] text-white text-center py-14 md:py-32 px-5 md:px-40 overflow-hidden">
         {/* <div className="absolute inset-0 bg-[#fdfdfd08] opacity-50"></div> */}
         <div className="flex flex-col items-center">
-          <span className="bg-black w-fit px-4 py-1 rounded-full text-sm mb-5 border border-white text-white border-opacity-20">
+          <span className="bg-[#283B59] w-fit px-4 py-1 rounded-full text-sm mb-5 text-white border-opacity-20">
             ISO 9001:2008 Certified
           </span>
           <motion.h1 
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-2xl md:text-4xl text-black font-bold mb-6 relative inline-block"
+            className="text-2xl md:text-4xl text-[#283B59] font-bold mb-6 relative inline-block"
           >
            SHREE ENGINEERS & CONTRACTORS LIMITED 
           </motion.h1>
@@ -65,7 +65,7 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
           </motion.p>
           <motion.button
             whileHover={{ y: -3, boxShadow: "0 5px 15px rgba(0, 0, 0, 0.2)" }}
-            className="bg-orange-500 hover:bg-orange-600 text-white text-xs md:text-base font-semibold py-3 px-6 rounded-md uppercase tracking-wide overflow-hidden relative"
+            className="bg-orange-400 text-white text-xs md:text-base font-semibold py-3 px-6 rounded-md uppercase tracking-wide overflow-hidden relative"
           >
             Contact
           </motion.button>
@@ -82,9 +82,9 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
             variants={fadeIn}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-10 relative inline-block">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#283B59] mb-10 relative inline-block">
               Our Core Services
-              <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -mb-4 w-16 h-1 bg-orange-500"></span>
+              <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -mb-4 w-16 h-1 bg-orange-400"></span>
             </h2>
             <p className="max-w-3xl mx-auto text-lg text-gray-600">
               We offer a complete range of thermal insulation services including installation, fabrication, project management and material supply contracts designed to maximize energy efficiency and deliver significant cost savings for your business.
@@ -109,12 +109,12 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
                 {/* <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div> */}
               </div>
               <div className="p-6 relative">
-                <div className="absolute -top-6 left-6 w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center text-white">
+                <div className="absolute -top-6 left-6 w-12 h-12 bg-orange-400 rounded-full flex items-center justify-center text-white">
                   <Flame size={24} />
                 </div>
-                <h3 className="text-xl font-bold text-blue-900 mb-6 pb-3 relative">
+                <h3 className="text-xl font-bold text-[#283B59] mb-6 pb-3 relative">
                   Hot Insulation
-                  <span className="absolute bottom-0 left-0 w-12 h-1 bg-orange-500"></span>
+                  <span className="absolute bottom-0 left-0 w-12 h-1 bg-orange-400"></span>
                 </h3>
                 <p className="text-gray-600 mb-5">
                   Prevent in-process energy loss for industries like Cement, Chemicals and Pharmaceuticals with our specialized hot insulation services.
@@ -123,7 +123,7 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
                   {["Eco-friendly materials", "Superior insulation efficiency", 
                     "High performance systems", "Significant energy conservation"].map((item, i) => (
                     <li key={i} className="text-gray-600 relative pl-7">
-                      <span className="absolute left-0 text-orange-500 font-bold">✓</span>
+                      <span className="absolute left-0 text-orange-400 font-bold">✓</span>
                       {item}
                     </li>
                   ))}
@@ -142,12 +142,12 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
                 {/* <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div> */}
               </div>
               <div className="p-6 pt-8 relative">
-                <div className="absolute -top-6 left-6 w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center text-white">
+                <div className="absolute -top-6 left-6 w-12 h-12 bg-orange-400 rounded-full flex items-center justify-center text-white">
                   <Snowflake size={24} />
                 </div>
-                <h3 className="text-xl font-bold text-blue-900 mb-6 pb-3 relative">
+                <h3 className="text-xl font-bold text-[#283B59] mb-6 pb-3 relative">
                   Cold Insulation
-                  <span className="absolute bottom-0 left-0 w-12 h-1 bg-orange-500"></span>
+                  <span className="absolute bottom-0 left-0 w-12 h-1 bg-orange-400"></span>
                 </h3>
                 <p className="text-gray-600 mb-5">
                   Maintain static temperatures in processes where both energy loss and gain need to be controlled with our reliable cold insulation solutions.
@@ -175,12 +175,12 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
                 {/* <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div> */}
               </div>
               <div className="p-6 pt-8 relative">
-                <div className="absolute -top-6 left-6 w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center text-white">
+                <div className="absolute -top-6 left-6 w-12 h-12 bg-orange-400 rounded-full flex items-center justify-center text-white">
                   <Volume2 size={24} />
                 </div>
-                <h3 className="text-xl font-bold text-blue-900 mb-6 pb-3 relative">
+                <h3 className="text-xl font-bold text-[#283B59] mb-6 pb-3 relative">
                   Acoustic Insulation
-                  <span className="absolute bottom-0 left-0 w-12 h-1 bg-orange-500"></span>
+                  <span className="absolute bottom-0 left-0 w-12 h-1 bg-orange-400"></span>
                 </h3>
                 <p className="text-gray-600 mb-5">
                   Reduce noise transmission through walls and floors with our wide range of acoustic insulation products using glass mineral wool technology.
@@ -189,7 +189,7 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
                   {["Reliable noise reduction", "Flexible application methods", 
                     "High tolerance materials", "Efficient sound dampening"].map((item, i) => (
                     <li key={i} className="text-gray-600 relative pl-7">
-                      <span className="absolute left-0 text-orange-500 font-bold">✓</span>
+                      <span className="absolute left-0 text-orange-400 font-bold">✓</span>
                       {item}
                     </li>
                   ))}
@@ -212,7 +212,7 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
             variants={fadeIn}
             className="bg-white rounded-lg shadow-md p-8 mb-12"
           >
-            <h3 className="text-2xl font-bold text-blue-900 mb-8 border-l-4 border-orange-500 pl-4">
+            <h3 className="text-2xl font-bold text-[#283B59] mb-8 border-l-4 border-orange-400 pl-4">
               Hot Insulation Services
             </h3>
             <div className="flex flex-col lg:flex-row gap-10">
@@ -241,7 +241,7 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
             variants={fadeIn}
             className="bg-white rounded-lg shadow-md p-8 mb-12"
           >
-            <h3 className="text-2xl font-bold text-blue-900 mb-8 border-l-4 border-orange-500 pl-4">
+            <h3 className="text-2xl font-bold text-[#283B59] mb-8 border-l-4 border-orange-400 pl-4">
               Cold Insulation Services
             </h3>
             <div className="flex flex-col lg:flex-row gap-10">
@@ -270,7 +270,7 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
             variants={fadeIn}
             className="bg-white rounded-lg shadow-md p-8"
           >
-            <h3 className="text-2xl font-bold text-blue-900 mb-8 border-l-4 border-orange-500 pl-4">
+            <h3 className="text-2xl font-bold text-[#283B59] mb-8 border-l-4 border-orange-400 pl-4">
               Acoustic Insulation Services
             </h3>
             <div className="flex flex-col lg:flex-row gap-10">

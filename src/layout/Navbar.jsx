@@ -6,7 +6,9 @@ import Logo from '../assets/Logo.png';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation(); // This hook gives you the current location
-  
+  // const [primary, setPrimary] = useState('#FFD700');
+
+  // const primary = 'white';
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
@@ -17,12 +19,14 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full px-5 md:px-40 z-10 ">
+    <nav className={`w-full px-5 md:px-40 z-10`} 
+    // style={{ backgroundColor: primary }}
+    >
       <div className="">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            {/* <h1 className="text-black text-2xl font-bold">Logo</h1> */}
+            {/* <h1 className="text-white text-2xl font-bold">Logo</h1> */}
             <img src={Logo} alt="Logo" className='w-24' />
           </div>
 
@@ -31,43 +35,43 @@ const Navbar = () => {
             <div className="flex space-x-8">
               <Link 
                 to="/" 
-                className={`${isActive('/') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
+                className={`${isActive('/') ? 'text-white font-semibold bg-orange-400' : 'text-black'} hover:text-white hover:font-semibold hover:bg-orange-400 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
               >
                 Home
               </Link>
               <Link 
                 to="/about" 
-                className={`${isActive('/about') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
+                className={`${isActive('/about') ? 'text-white font-semibold bg-orange-400' : 'text-black'} hover:text-white hover:font-semibold hover:bg-orange-400 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
               >
                 About
               </Link>
               <Link 
                 to="/services" 
-                className={`${isActive('/services') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
+                className={`${isActive('/services') ? 'text-white font-semibold bg-orange-400' : 'text-black'} hover:text-white hover:font-semibold hover:bg-orange-400 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
               >
                 Services
               </Link>
               <Link 
                 to="/gallery" 
-                className={`${isActive('/gallery') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
+                className={`${isActive('/gallery') ? 'text-white font-semibold bg-orange-400' : 'text-black'} hover:text-white hover:font-semibold hover:bg-orange-400 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
               >
                 Gallery
               </Link>
               <Link 
                 to="/projects" 
-                className={`${isActive('/projects') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
+                className={`${isActive('/projects') ? 'text-white font-semibold bg-orange-400' : 'text-black'} hover:text-white hover:font-semibold hover:bg-orange-400 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
               >
                 Clientele
               </Link>
               {/* <Link 
                 to="/products" 
-                className={`${isActive('/products') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
+                className={`${isActive('/products') ? 'text-white font-semibold bg-orange-400' : 'text-white'} hover:text-white hover:font-semibold hover:bg-orange-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
               >
                 Products
               </Link> */}
               {/* <Link 
                 to="/contact" 
-                className={`${isActive('/contact') ? 'text-black font-semibold bg-yellow-400' : 'text-black'} hover:text-black hover:font-semibold hover:bg-yellow-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
+                className={`${isActive('/contact') ? 'text-white font-semibold bg-orange-400' : 'text-white'} hover:text-white hover:font-semibold hover:bg-orange-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
               >
                 Contact
               </Link> */}
@@ -76,7 +80,7 @@ const Navbar = () => {
 
           {/* Right Button */}
           <div className="hidden md:flex items-center">
-            <Link to="/contact" className="bg-yellow-400 cursor-pointer text-blackary px-4 py-2 rounded-md text-sm font-medium">
+            <Link to="/contact" className="bg-orange-400 cursor-pointer text-white px-4 py-2 rounded-md text-sm font-medium">
               Contact
             </Link>
           </div>
@@ -115,51 +119,51 @@ const Navbar = () => {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 ">
               <Link 
                 to="/" 
-                className={`block ${isActive('/') ? 'text-indigo-600 bg-indigo-50 font-semibold' : 'text-gray-500'} hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
+                className={`block ${isActive('/') ? 'text-white bg-orange-400 font-semibold' : 'text-gray-500'} hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
               >
                 Home
               </Link>
               <Link 
                 to="/about" 
-                className={`block ${isActive('/about') ? 'text-indigo-600 bg-indigo-50 font-semibold' : 'text-gray-500'} hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
+                className={`block ${isActive('/about') ? 'text-white bg-orange-400 font-semibold' : 'text-gray-500'} hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
               >
                 About
               </Link>
               <Link 
                 to="/services" 
-                className={`block ${isActive('/services') ? 'text-indigo-600 bg-indigo-50 font-semibold' : 'text-gray-500'} hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
+                className={`block ${isActive('/services') ? 'text-white bg-orange-400 font-semibold' : 'text-gray-500'} hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
               >
                 Services
               </Link>
               <Link 
                 to="/gallery" 
-                className={`block ${isActive('/gallery') ? 'text-indigo-600 bg-indigo-50 font-semibold' : 'text-gray-500'} hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
+                className={`block ${isActive('/gallery') ? 'text-white bg-orange-400 font-semibold' : 'text-gray-500'} hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
               >
                 Gallery
               </Link>
               <Link 
                 to="/projects" 
-                className={`block ${isActive('/projects') ? 'text-indigo-600 bg-indigo-50 font-semibold' : 'text-gray-500'} hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
+                className={`block ${isActive('/projects') ? 'text-white bg-orange-400 font-semibold' : 'text-gray-500'} hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
               >
                 Clientele
               </Link>
-              <Link 
+              {/* <Link 
                 to="/products" 
-                className={`block ${isActive('/products') ? 'text-indigo-600 bg-indigo-50 font-semibold' : 'text-gray-500'} hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
+                className={`block ${isActive('/products') ? 'text-white bg-orange-400 font-semibold' : 'text-gray-500'} hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
               >
                 Products
-              </Link>
-              {/* <Link 
+              </Link> */}
+              <Link 
                 to="/contact" 
-                className={`block ${isActive('/contact') ? 'text-indigo-600 bg-indigo-50 font-semibold' : 'text-gray-500'} hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
+                className={`block ${isActive('/contact') ? 'text-white bg-orange-400 font-semibold' : 'text-gray-500'} hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
               >
                 Contact
-              </Link> */}
-              <div className="pt-2">
-                <Link to="/contact" className="w-full bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-md text-sm font-medium">
+              </Link>
+              {/* <div className="pt-2">
+                <Link to="/contact" className="w-full text-white bg-orange-400 px-4 py-2 rounded-md text-sm font-medium">
                   Contact
                 </Link>
-              </div>
+              </div> */}
             </div>
           </motion.div>
         )}

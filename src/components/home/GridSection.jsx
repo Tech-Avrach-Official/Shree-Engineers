@@ -16,7 +16,7 @@ const GridSection = () => {
               <p className="text-sm opacity-80">Nusa Penida, Bali</p>
             </div>
             <div className="absolute bottom-4 right-4">
-              <button className="bg-white/90 rounded-full p-2 text-black">
+              <button className="bg-[#283B59] rounded-full p-2 text-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -50,7 +50,7 @@ const GridSection = () => {
                     <p className="text-sm opacity-80">Nusa Penida, Bali</p>
                   </div>
                   <div className="absolute bottom-4 right-4">
-                    <button className="bg-white/90 rounded-full p-2 text-black">
+                    <button className="bg-[#283B59] rounded-full p-2 text-white">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -83,7 +83,7 @@ const GridSection = () => {
                     <p className="text-sm opacity-80">Nusa Penida, Bali</p>
                   </div>
                   <div className="absolute bottom-4 right-4">
-                    <button className="bg-white/90 rounded-full p-2 text-black">
+                    <button className="bg-[#283B59] rounded-full p-2 text-white">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -117,7 +117,7 @@ const GridSection = () => {
                   <p className="text-sm opacity-80">Nusa Penida, Bali</p>
                 </div>
                 <div className="absolute bottom-4 right-4">
-                  <button className="bg-white/90 rounded-full p-2 text-black">
+                  <button className="bg-[#283B59] rounded-full p-2 text-white">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"

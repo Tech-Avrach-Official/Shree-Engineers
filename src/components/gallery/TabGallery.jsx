@@ -66,7 +66,7 @@ const TabGallery = () => {
   return (
     <div className="py-20 px-5 md:px-20 xl:px-40">
       {/* Tab Navigation */}
-      <div className="flex justify-center mb-6 bg-gray-100 rounded-md p-2">
+      <div className="flex justify-center mb-6 bg-[#ececec] rounded-md p-2">
         {tabs.map((tab) => (
           <button
             key={tab.key}
@@ -74,7 +74,7 @@ const TabGallery = () => {
             className={`
               flex items-center px-4 py-2 mx-1 rounded-md transition-all duration-300
               ${activeTab === tab.key 
-                ? 'bg-blue-500 text-white' 
+                ? 'bg-[#283B59] text-white' 
                 : 'text-gray-600 hover:bg-gray-200'}
             `}
           >

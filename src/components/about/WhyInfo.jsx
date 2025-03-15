@@ -48,7 +48,7 @@ const WhyInfo = () => {
             key={index} 
             className="bg-white p-2 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 text-center"
           >
-            <div className="bg-black text-white w-10 h-10 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="bg-orange-400 text-white w-10 h-10 rounded-full flex items-center justify-center mx-auto mb-4">
               <service.icon size={20} />
             </div>
             <h3 className="text-lg font-bold mb-3">{service.title}</h3>

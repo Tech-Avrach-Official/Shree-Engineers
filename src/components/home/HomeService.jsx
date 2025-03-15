@@ -7,7 +7,7 @@ const HomeService = () => {
     <div className='h-full w-full'>
       <div className="py-20 px-5 h-full w-full md:px-20 lg:px-40">
         <div>
-          <h2 className="text-xl md:text-3xl font-bold">WELCOME TO <span className='text-yellow-500'>SHREE ENGINEERS</span></h2>
+          <h2 className="text-xl md:text-3xl font-bold">WELCOME TO <span className='text-[#283B59]'>SHREE ENGINEERS</span></h2>
         </div>
         <div className="flex flex-col lg:flex-row items-center h-full w-full gap-5 lg:gap-28 mt-2 md:mt-10">
           <div className="w-full lg:w-1/2 h-[300px] md:h-[380px]">

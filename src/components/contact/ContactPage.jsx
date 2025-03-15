@@ -22,15 +22,15 @@ const ContactPage = () => {
         <h1 className="text-lg text-center font-semibold">CONTACT US</h1>
         <h2 className="text-4xl font-bold text-center mt-2">We Are Ready To Help You</h2>
         <div className="flex justify-center mt-2 mb-12">
-          <div className="w-20 h-1 bg-yellow-400"></div>
+          <div className="w-20 h-1 bg-orange-400"></div>
         </div>
 
         {/* Main Contact Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <Briefcase className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <Briefcase className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -41,8 +41,8 @@ const ContactPage = () => {
 
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <Mail className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <Mail className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -53,8 +53,8 @@ const ContactPage = () => {
 
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <Clock className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <Clock className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -70,14 +70,14 @@ const ContactPage = () => {
         <h2 className="text-3xl font-bold text-center">Registered Offices</h2>
         <h3 className="text-center text-gray-600 mt-1">SHREE ENGINEERS & CONTRACTORS PVT. LTD.</h3>
         <div className="flex justify-center mt-2 mb-12">
-          <div className="w-20 h-1 bg-yellow-400"></div>
+          <div className="w-20 h-1 bg-orange-400"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <MapPin className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <MapPin className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -88,8 +88,8 @@ const ContactPage = () => {
 
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <Phone className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <Phone className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -101,8 +101,8 @@ const ContactPage = () => {
 
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <Mail className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <Mail className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -119,14 +119,14 @@ const ContactPage = () => {
         <h2 className="text-3xl font-bold text-center">Manufacturing Units</h2>
         <h3 className="text-center text-gray-600 mt-1">SHREE CERAMIC FIBERS PVT. LTD. & SHREE POLY FOAM PVT. LTD</h3>
         <div className="flex justify-center mt-2 mb-12">
-          <div className="w-20 h-1 bg-yellow-400"></div>
+          <div className="w-20 h-1 bg-orange-400"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <MapPin className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <MapPin className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -137,8 +137,8 @@ const ContactPage = () => {
 
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <Phone className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <Phone className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -149,8 +149,8 @@ const ContactPage = () => {
 
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <Mail className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <Mail className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -167,14 +167,14 @@ const ContactPage = () => {
         <h2 className="text-3xl font-bold text-center">Operation Office</h2>
         <h3 className="text-center text-gray-600 mt-1">SHREE ENGINEERS & CONTRACTORS PVT. LTD</h3>
         <div className="flex justify-center mt-2 mb-12">
-          <div className="w-20 h-1 bg-yellow-400"></div>
+          <div className="w-20 h-1 bg-orange-400"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <MapPin className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <MapPin className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -185,8 +185,8 @@ const ContactPage = () => {
 
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <Phone className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <Phone className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -197,8 +197,8 @@ const ContactPage = () => {
 
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <Mail className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <Mail className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -215,15 +215,15 @@ const ContactPage = () => {
         <h2 className="text-3xl font-bold text-center">Regional Offices</h2>
         <h3 className="text-center text-gray-600 mt-1">SHREE ENGINEERS & CONTRACTORS PVT. LTD</h3>
         <div className="flex justify-center mt-2 mb-12">
-          <div className="w-20 h-1 bg-yellow-400"></div>
+          <div className="w-20 h-1 bg-orange-400"></div>
         </div>
 
         {/* New Delhi */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <MapPin className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <MapPin className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -234,8 +234,8 @@ const ContactPage = () => {
 
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <Phone className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <Phone className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -247,8 +247,8 @@ const ContactPage = () => {
 
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <Mail className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <Mail className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -263,8 +263,8 @@ const ContactPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <MapPin className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <MapPin className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -275,8 +275,8 @@ const ContactPage = () => {
 
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <Phone className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <Phone className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -288,8 +288,8 @@ const ContactPage = () => {
 
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <Mail className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <Mail className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -304,8 +304,8 @@ const ContactPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {/* <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <MapPin className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <MapPin className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -316,8 +316,8 @@ const ContactPage = () => {
 
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <Phone className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <Phone className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -328,8 +328,8 @@ const ContactPage = () => {
 
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <Mail className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <Mail className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -340,8 +340,8 @@ const ContactPage = () => {
 
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <Phone className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <Phone className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -355,8 +355,8 @@ const ContactPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <MapPin className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <MapPin className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -369,8 +369,8 @@ const ContactPage = () => {
 
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-yellow-100 rounded-md flex items-center justify-center">
-                <Mail className="text-yellow-400" size={28} />
+              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
+                <Mail className="text-orange-400" size={28} />
               </div>
             </div>
             <div>
@@ -407,7 +407,7 @@ const ContactPage = () => {
               placeholder="Message"
               className="min-h-[150px] bg-white"
             />
-            <Button className="w-full bg-yellow-400 text-black hover:bg-yellow-500">
+            <Button className="w-full bg-orange-400 text-white hover:bg-gray-1000">
               Send Message
             </Button>
           </form>

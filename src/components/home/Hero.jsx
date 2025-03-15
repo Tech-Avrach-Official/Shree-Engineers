@@ -104,7 +104,7 @@ const HeaderCarousel = () => {
             >
               <Link 
                 to={slides[activeIndex].buttonLink} 
-                className="bg-yellow-400 text-black  font-medium py-3 px-8 rounded-lg "
+                className="bg-orange-400 text-white  font-medium py-3 px-8 rounded-lg "
               >
                 {slides[activeIndex].buttonText}
               </Link>

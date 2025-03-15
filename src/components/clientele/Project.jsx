@@ -16,7 +16,7 @@ const Project = () => {
         className="w-full md:w-72 bg-white shadow-md"
       >
         <div className="py-8 px-6">
-          <h1 className="text-xl font-semibold text-gray-800 pb-4 mb-6 border-b border-gray-100">
+          <h1 className="text-xl font-semibold text-[#283B59] pb-4 mb-6 border-b border-gray-100">
             CLIENTELE
           </h1>
           <ul className="space-y-1">
@@ -27,7 +27,7 @@ const Project = () => {
                 onClick={() => setActiveIndustry(industry)}
                 className={`px-4 py-3 flex items-center cursor-pointer transition-all border-l-4 ${
                   activeIndustry === industry 
-                    ? "border-blue-500 bg-blue-50 text-blue-600 font-medium" 
+                    ? "border-[#283B59] bg-blue-50 text-[#283B59] font-medium" 
                     : "border-transparent hover:bg-gray-50"
                 }`}
               >
@@ -52,7 +52,7 @@ const Project = () => {
         >
           <h1 className="text-2xl font-bold text-gray-800 relative pb-2 inline-block">
             {activeIndustry}
-            <span className="absolute bottom-0 left-0 w-16 h-1 bg-blue-500"></span>
+            <span className="absolute bottom-0 left-0 w-16 h-1 bg-[#283B59]"></span>
           </h1>
         </motion.div>
         
@@ -129,7 +129,7 @@ const ClientCard = ({ client, index }) => {
       <div className="p-6">
         <div className="flex">
           <div className="w-32 flex-shrink-0 text-gray-500 font-medium">Project Value:</div>
-          <div className="text-blue-600 font-medium">{client.projectValue || "N/A"}</div>
+          <div className="text-[#283B59] font-medium">{client.projectValue || "N/A"}</div>
         </div>
       </div>
     </motion.div>

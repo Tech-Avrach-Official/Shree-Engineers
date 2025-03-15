@@ -1,28 +1,28 @@
-import { Phone } from "lucide-react";
+import { Award, CircleUser, Expand, Phone, User, Users } from "lucide-react";
 import React from "react";
 
 const Divider = () => {
   const stats = [
     {
-      icon: Phone,
+      icon: Award,
       title: "20+ YEARS EXPERIENCE",
       description: "Nec maecenas neque potenti felis eget."
     },
     {
-      icon: Phone,
+      icon: Users,
       title: "500 + TASKFORCE",
       description: "Nec maecenas neque potenti felis eget."
     },
     {
-      icon: Phone,
+      icon: CircleUser,
       title: "40K+ CLIENTS",
       description: "Nec maecenas neque potenti felis eget."
     },
-    {
-      icon: Phone,
-      title: "Project Successful",
-      description: "Nec maecenas neque potenti felis eget."
-    }
+    // {
+    //   icon: Phone,
+    //   title: "Project Successful",
+    //   description: "Nec maecenas neque potenti felis eget."
+    // }
   ];
 
   return (
@@ -68,7 +68,7 @@ const Divider = () => {
               <div key={index}>
                 <div className="bg-[#00000086] py-5 rounded-lg">
                   <div className="flex items-center justify-center">
-                    <div className="w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center">
+                    <div className="w-16 h-16 bg-[#283B59] rounded-full flex items-center justify-center">
                     <stat.icon size={32} className="text-white mx-auto" />
                     </div>
                   </div>
