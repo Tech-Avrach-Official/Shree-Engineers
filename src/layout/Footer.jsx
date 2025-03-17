@@ -7,6 +7,9 @@ import linkedin from '../assets/linkedin.svg'
 import whatsapp from '../assets/whatsapp.svg'
 
 const Footer = () => {
+  const whatsappNumber = "918718812605"
+  
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=I+am+interested+in+your+products.+Please+share+the+details`
   return (
     <footer className="bg-[#283B59] text-gray-300 py-20 px-5 md:px-20 lg:px-40">
       <div className="">
@@ -66,7 +69,7 @@ const Footer = () => {
             <a href="https://www.facebook.com/profile.php?id=61566026194334" target='_blank' className="text-white hover:text-orange-400 transition">
               <img src={facebook} alt="Facebook" className="w-10" />
             </a>
-            <a href="#" className="text-white hover:text-orange-400 transition">
+            <a href={whatsappLink} target='_blank' className="text-white hover:text-orange-400 transition">
               <img src={whatsapp} alt="Whatsapp" className="w-10" />
             </a>
             <a href="https://www.linkedin.com/company/shree-insulation/about/?viewAsMember=true" target='_blank' className="text-white hover:text-orange-400 transition">
