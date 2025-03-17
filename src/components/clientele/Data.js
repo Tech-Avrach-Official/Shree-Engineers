@@ -223,7 +223,7 @@ export const clientsData = {
     },
     {
       "id": "pharma-10",
-      "name": "Jbilant Infrastructures Ltd.",
+      "name": "Jubilant Infrastructures Ltd.",
       "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741696966/Image-Shree/PHARMACEUTICAL/suliiwjd7iyccyajhtny.png",
       "location": "Bharuch (Guj)",
       "projectValue": "Approx value 100 Lacs"
@@ -335,7 +335,7 @@ export const clientsData = {
       "name": "NTPC Ltd.",
       "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741697734/Image-Shree/POWER/cz3mtyeqvgesuc5ahint.png",
       "location": "Sipat, Korba, Vindhyangar, Chennai",
-      "projectValue": "Approx value 70 Lacs"
+      "projectValue": "Approx value 80 Lacs"
     },
     {
       "id": "power-5",
@@ -508,13 +508,16 @@ export const clientsData = {
             "id": "paper-5",
             "name": "Nepa Mills Ltd.",
             "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741699262/Image-Shree/Paper/uz9hzfdb1jumqlsugzob.jpg",
-            "location": "Nepa Nagar (M.P.)"
+            "location": "Nepa Nagar (M.P.)",
+            "projectValue": "Approx value 80 Lacs"
+
           },
           {
             "id": "paper-6",
             "name": "Rainbow Paper Mills Ltd.",
             "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741699264/Image-Shree/Paper/y7fpeeivved0la0pqmsf.webp",
-            "location": "Ahmedabad, (Guj.)"
+            "location": "Ahmedabad, (Guj.)",
+            "projectValue": "Approx value 110 Lacs"
           }
     ],
     "STEEL INDUSTRIES": [
@@ -536,8 +539,9 @@ export const clientsData = {
             "id": "steel-3",
             "name": "JP Steel Plantech Co LTD.",
             "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741699527/Image-Shree/Still/xiagrteohfwhxnnfmqii.webp",
-            "location": "Yokohama, Japan"
-                  },
+            "location": "Yokohama, Japan",
+            "projectValue": "Approx value 110 Lacs"
+          },
           {
             "id": "steel-4",
             "name": "Jindal Stainless Ltd.",
@@ -549,7 +553,8 @@ export const clientsData = {
             "id": "steel-5",
             "name": "Vedanta Industries Ltd.",
             "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741699528/Image-Shree/Still/vzs01a6bfowtgp2ws293.jpg",
-            "location": "Tuticorin (TN)"
+            "location": "Tuticorin (TN)",
+            "projectValue": "Approx value 125 Lacs"
           },
     ],
     "CHEMICALS & FERTILIZERS": [
@@ -562,7 +567,7 @@ export const clientsData = {
           },
           {
             "id": "chem-2",
-            "name": "Chambal Fertilizers & Chemicals Ltd.",
+            "name": "Chambal Fertilisers & Chemicals Ltd.",
             "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741699676/Image-Shree/Chemicals/frj0n6cg6avfo85w0fif.jpg",
             "location": "Kota",
             "projectValue": "Approx value 250 Lacs"
@@ -583,7 +588,7 @@ export const clientsData = {
           },
           {
             "id": "chem-5",
-            "name": "Gujrat State Fertilizer Corporation Limited.",
+            "name": "Gujarat State Fertilizer Corporation Limited.",
             "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741699674/Image-Shree/Chemicals/wo6e0bk07gtlmykott1t.jpg",
             "location": "Vadodara",
             "projectValue": "Approx value 100 Lacs"
@@ -606,7 +611,8 @@ export const clientsData = {
             "id": "chem-8",
             "name": "National Fertilizers Ltd.",
             "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741699678/Image-Shree/Chemicals/m0res88ase0k1xfojhag.png",
-            "location": "Guna (M.P.), Nangal (Punjab)"
+            "location": "Guna (M.P.), Nangal (Punjab)",
+            "projectValue": "Approx value 105 Lacs"
           },
           {
             "id": "chem-9",
@@ -642,7 +648,8 @@ export const clientsData = {
       "id": "solvent-4",
       "name": "Khaitan LTD.",
       "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741699930/Image-Shree/solvent/akjdo62fcbwgnaaagot9.jpg",
-      "location": "Agro Ratlam"
+      "location": "Agro Ratlam",
+      "projectValue": "Approx value 119 Lacs"
     },
     {
       "id": "solvent-5",
@@ -664,7 +671,8 @@ export const clientsData = {
       "id": "textile-1",
       "name": "Garden Silk Mills Ltd.",
       "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741700212/Image-Shree/Textline/gmsdv7zdzh4xlrdx6rts.jpg",
-      "location": "Surat"
+      "location": "Surat",
+      "projectValue": "Approx value 87 Lacs"
     },
     {
       "id": "textile-2",
@@ -677,25 +685,29 @@ export const clientsData = {
       "id": "textile-3",
       "name": "Alok Industries Ltd.",
       "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741700214/Image-Shree/Textline/dsjyxlb5tjapdgwmnxaa.webp",
-      "location": "Vapi"
+      "location": "Vapi",
+      "projectValue": "Approx value 102 Lacs"
     },
     {
       "id": "textile-4",
       "name": "Birla Century Ltd.",
       "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741700213/Image-Shree/Textline/ns0ckresvwxxeo3uzj2l.jpg",
-      "location": "Jhagdia, (Gujarat)"
+      "location": "Jhagdia, (Gujarat)",
+      "projectValue": "Approx value 122 Lacs"
     },
     {
       "id": "textile-5",
       "name": "Century Yarn PVT. LTD.",
       "logo": "https://via.placeholder.com/100",
-      "location": "(MP)"
+      "location": "(MP)",
+      "projectValue": "Approx value 95 Lacs"
     },
     {
       "id": "textile-6",
       "name": "STI (India) Ltd.",
       "logo": "https://via.placeholder.com/100",
-      "location": "(MP)"
+      "location": "(MP)",
+      "projectValue": "Approx value 113 Lacs"
     }
   ],
   "OXYGEN": [

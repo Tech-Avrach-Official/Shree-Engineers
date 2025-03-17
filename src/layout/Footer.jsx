@@ -1,5 +1,10 @@
 import React from 'react';
-import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+// import { Facebook, Twitter, Instagram, Linkedin, Whatsapp } from 'lucide-react';
+import instagram from '../assets/instagram.svg'
+import facebook from '../assets/facebook.svg'
+import linkedin from '../assets/linkedin.svg'
+// import twitter from '../assets/twitter.svg'
+import whatsapp from '../assets/whatsapp.svg'
 
 const Footer = () => {
   return (
@@ -10,7 +15,7 @@ const Footer = () => {
 
           <div className="w-full md:w-1/4">
             <h2 className="text-white text-3xl font-bold mb-4">MCED Footer</h2>
-            <p className="text-gray-400 text-sm">
+            <p className="text-gray-200 text-sm">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
             </p>
           </div>
@@ -51,25 +56,26 @@ const Footer = () => {
           </div>
 
         {/* Copyright and Social Icons */}
-        <div className="mt-12 pt-6 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm mb-4 md:mb-0">
+        <div className="mt-12 pt-6 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center">
+          {/* <p className="text-sm mb-4 md:mb-0">
             Copyright ©2020 All rights reserved | Block is made with by 
             <a href="#" className="text-blue-400 hover:text-blue-300 ml-1">Mudassar Chaudhry</a>
-          </p>
+          </p> */}
           
           <div className="flex space-x-4">
-            <a href="#" className="text-gray-400 hover:text-blue-400 transition">
-              <Facebook size={20} />
+            <a href="https://www.facebook.com/profile.php?id=61566026194334" target='_blank' className="text-white hover:text-orange-400 transition">
+              <img src={facebook} alt="Facebook" className="w-10" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-blue-400 transition">
-              <Twitter size={20} />
+            <a href="#" className="text-white hover:text-orange-400 transition">
+              <img src={whatsapp} alt="Whatsapp" className="w-10" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-blue-400 transition">
-              <Instagram size={20} />
+            <a href="https://www.linkedin.com/company/shree-insulation/about/?viewAsMember=true" target='_blank' className="text-white hover:text-orange-400 transition">
+              <img src={linkedin} alt="Linkedin" className="w-10" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-blue-400 transition">
-              <Linkedin size={20} />
+            <a href="https://www.instagram.com/shree.insul/" target='_blank' className="text-white hover:text-orange-400 transition">
+              <img src={instagram} alt="Instagram" className="w-10" />
             </a>
+            
           </div>
         </div>
       </div>

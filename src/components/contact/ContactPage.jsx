@@ -68,7 +68,7 @@ const ContactPage = () => {
       {/* Registered Offices Section */}
       <div className="mb-16">
         <h2 className="text-3xl font-bold text-center">Registered Offices</h2>
-        <h3 className="text-center text-gray-600 mt-1">SHREE ENGINEERS & CONTRACTORS PVT. LTD.</h3>
+        {/* <h3 className="text-center text-gray-600 mt-1">SHREE ENGINEERS & CONTRACTORS PVT. LTD.</h3> */}
         <div className="flex justify-center mt-2 mb-12">
           <div className="w-20 h-1 bg-orange-400"></div>
         </div>
@@ -117,7 +117,7 @@ const ContactPage = () => {
       {/* Manufacturing Units Section */}
       <div className="mb-16">
         <h2 className="text-3xl font-bold text-center">Manufacturing Units</h2>
-        <h3 className="text-center text-gray-600 mt-1">SHREE CERAMIC FIBERS PVT. LTD. & SHREE POLY FOAM PVT. LTD</h3>
+        {/* <h3 className="text-center text-gray-600 mt-1">SHREE CERAMIC FIBERS PVT. LTD. & SHREE POLY FOAM PVT. LTD</h3> */}
         <div className="flex justify-center mt-2 mb-12">
           <div className="w-20 h-1 bg-orange-400"></div>
         </div>
@@ -165,7 +165,7 @@ const ContactPage = () => {
       {/* Operation Office Section */}
       <div className="mb-16">
         <h2 className="text-3xl font-bold text-center">Operation Office</h2>
-        <h3 className="text-center text-gray-600 mt-1">SHREE ENGINEERS & CONTRACTORS PVT. LTD</h3>
+        {/* <h3 className="text-center text-gray-600 mt-1">SHREE ENGINEERS & CONTRACTORS PVT. LTD</h3> */}
         <div className="flex justify-center mt-2 mb-12">
           <div className="w-20 h-1 bg-orange-400"></div>
         </div>
@@ -213,7 +213,7 @@ const ContactPage = () => {
       {/* Regional Offices Section */}
       <div className="mb-16">
         <h2 className="text-3xl font-bold text-center">Regional Offices</h2>
-        <h3 className="text-center text-gray-600 mt-1">SHREE ENGINEERS & CONTRACTORS PVT. LTD</h3>
+        {/* <h3 className="text-center text-gray-600 mt-1">SHREE ENGINEERS & CONTRACTORS PVT. LTD</h3> */}
         <div className="flex justify-center mt-2 mb-12">
           <div className="w-20 h-1 bg-orange-400"></div>
         </div>

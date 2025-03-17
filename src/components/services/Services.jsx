@@ -39,9 +39,6 @@ const ThermalInsulationServices = () => {
       <section className="relative bg-[#ebebeb6d] text-white text-center py-14 md:py-32 px-5 md:px-40 overflow-hidden">
         {/* <div className="absolute inset-0 bg-[#fdfdfd08] opacity-50"></div> */}
         <div className="flex flex-col items-center">
-          <span className="bg-[#283B59] w-fit px-4 py-1 rounded-full text-sm mb-5 text-white border-opacity-20">
-            ISO 9001:2008 Certified
-          </span>
           <motion.h1 
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -50,6 +47,9 @@ const ThermalInsulationServices = () => {
           >
            SHREE ENGINEERS & CONTRACTORS LIMITED 
           </motion.h1>
+          <span className="bg-[#283B59] w-fit px-4 py-1 rounded-full text-sm mb-5 text-white border-opacity-20">
+            ISO 9001:2008 Certified
+          </span>
           <motion.p 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
