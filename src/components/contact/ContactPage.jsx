@@ -20,7 +20,9 @@ const ContactPage = () => {
       {/* Header Section */}
       <div className="mb-16">
         <h1 className="text-lg text-center font-semibold">CONTACT US</h1>
-        <h2 className="text-4xl font-bold text-center mt-2">We Are Ready To Help You</h2>
+        <h2 className="text-4xl font-bold text-center mt-2">
+          We Are Ready To Help You
+        </h2>
         <div className="flex justify-center mt-2 mb-12">
           <div className="w-20 h-1 bg-orange-400"></div>
         </div>
@@ -35,7 +37,10 @@ const ContactPage = () => {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-1">Corporate Offices</h3>
-              <p className="text-gray-600">416, Prem Trade Centre, Maharani Road, Indore [M.P] 452 007, INDIA</p>
+              <p className="text-gray-600">
+                416, Prem Trade Centre, Maharani Road, Indore [M.P] 452 007,
+                INDIA
+              </p>
             </div>
           </div>
 
@@ -82,7 +87,10 @@ const ContactPage = () => {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-1">Madhya Pradesh</h3>
-              <p className="text-gray-600">416, Prem Trade Centre, Maharani Road, Indore, Madhya Pradesh, India 452007</p>
+              <p className="text-gray-600">
+                416, Prem Trade Centre, Maharani Road, Indore, Madhya Pradesh,
+                India 452007
+              </p>
             </div>
           </div>
 
@@ -131,7 +139,10 @@ const ContactPage = () => {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-1">Madhya Pradesh</h3>
-              <p className="text-gray-600">Smart Industrial Park Natrip, Plot No. 72, near NATRAX, Pithampur, Asukhedi, Madhya Pradesh 454775</p>
+              <p className="text-gray-600">
+                Smart Industrial Park Natrip, Plot No. 72, near NATRAX,
+                Pithampur, Asukhedi, Madhya Pradesh 454775
+              </p>
             </div>
           </div>
 
@@ -179,7 +190,10 @@ const ContactPage = () => {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-1">VADODARA</h3>
-              <p className="text-gray-600">JETALPUR ROAD, ALKAPURI, VADODARA 395 005, GUJARAT STATE</p>
+              <p className="text-gray-600">
+                Shree Engineers & Contractors Pvt. Ltd. 608, Mid Town Heights,
+                Anupam Society, Jetalpur Road, Vadodara (Gujarat) - 390005
+              </p>
             </div>
           </div>
 
@@ -191,7 +205,7 @@ const ContactPage = () => {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-1">Phone</h3>
-              <p className="text-gray-600">0265-2330262, 91 - 7227850010</p>
+              <p className="text-gray-600">07226948419</p>
             </div>
           </div>
 
@@ -203,8 +217,8 @@ const ContactPage = () => {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-1">Email</h3>
-              <p className="text-gray-600">mau@shreeengineers.in</p>
-              <p className="text-gray-600">Website: www.shreecera.in</p>
+              <p className="text-gray-600">info@shreeinsul.com</p>
+              {/* <p className="text-gray-600">Website: www.shreecera.in</p> */}
             </div>
           </div>
         </div>
@@ -228,7 +242,13 @@ const ContactPage = () => {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-1">New Delhi</h3>
-              <p className="text-gray-600">Building No. 107, Type - B, Second Floor, Okhla Industrial Area, Phase-1, New Delhi - 110 020 India</p>
+              <p className="text-gray-600">
+              Shree Engineers & Contractors Pvt. Ltd.	
+						B-107, 4TH Floor,DDA Shed,
+						Okhla Industrial area, Phase-I,
+						New Delhi - 110020
+
+              </p>
             </div>
           </div>
 
@@ -240,8 +260,8 @@ const ContactPage = () => {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-1">Phone</h3>
-              <p className="text-gray-600">011-26213393, 09971075297</p>
               <p className="text-gray-600">08527947914</p>
+              {/* <p className="text-gray-600">08527947914</p> */}
             </div>
           </div>
 
@@ -253,8 +273,8 @@ const ContactPage = () => {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-1">Email</h3>
-              <p className="text-gray-600">pkgupta@shreeengineers.in</p>
-              <p className="text-gray-600">munjesh@shreeengineers.net.in</p>
+              <p className="text-gray-600">munjesh@shreeinsul.com</p>
+              {/* <p className="text-gray-600">munjesh@shreeengineers.net.in</p> */}
             </div>
           </div>
         </div>
@@ -269,7 +289,11 @@ const ContactPage = () => {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-1">Mumbai</h3>
-              <p className="text-gray-600">F-03, A-69, Plot No. 88-91, Nerul East, Sector 19A, New Mumbai (M Corp.), Maharashtra, India - 400706</p>
+              <p className="text-gray-600">
+              Shree Engineers & Contractors Pvt. Ltd.
+						C-501, Groma House, Opp. Dana Bazaar, APMC Market-2
+						Sector 19A, Vashi Navi Mumbai-400 705
+              </p>
             </div>
           </div>
 
@@ -281,8 +305,8 @@ const ContactPage = () => {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-1">Phone</h3>
-              <p className="text-gray-600">022-27727217, 09967497217</p>
-              <p className="text-gray-600">09594909217</p>
+              <p className="text-gray-600">+91 9819568508 / 8169763852</p>
+              {/* <p className="text-gray-600">09594909217</p> */}
             </div>
           </div>
 
@@ -294,8 +318,8 @@ const ContactPage = () => {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-1">Email</h3>
-              <p className="text-gray-600">S-Rajarams@shreecera.com</p>
-              <p className="text-gray-600">ashish@shreeengineers.net.in</p>
+              <p className="text-gray-600">vpandey@shreeinsul.com</p>
+              {/* <p className="text-gray-600">ashish@shreeengineers.net.in</p> */}
             </div>
           </div>
         </div>
@@ -365,8 +389,6 @@ const ContactPage = () => {
             </div>
           </div> */}
 
-          
-
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
               <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
@@ -375,7 +397,9 @@ const ContactPage = () => {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-1">Email</h3>
-              <p className="text-gray-600">jmaulchennai@shreeengineers.net.in</p>
+              <p className="text-gray-600">
+                jmaulchennai@shreeengineers.net.in
+              </p>
               <p className="text-gray-600">jmr@shreecera.co.in</p>
             </div>
           </div>

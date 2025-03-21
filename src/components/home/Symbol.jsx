@@ -28,7 +28,7 @@ const Symbol = () => {
     <div className="px-5 md:px-20 lg:px-40 py-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-10">
       {symbols.map((symbol, index) => (
         <div key={index}>
-          <img src={symbol.src} className="border-2 border-dashed border-orange-400 p-5 rounded-2xl" alt={symbol.alt} />
+          <img src={symbol.src} className="border-2 border-dashed border-orange-400 p-10 rounded-2xl" alt={symbol.alt} />
           <p className="text-center text-base md:text-xl font-semibold text-orange-400 mt-2 md:mt-5">{symbol.label}</p>
         </div>
       ))}

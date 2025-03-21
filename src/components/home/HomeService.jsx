@@ -10,10 +10,10 @@ const HomeService = () => {
           <h2 className="text-xl md:text-3xl font-bold">WELCOME TO <span className='text-[#283B59]'>SHREE ENGINEERS</span></h2>
         </div>
         <div className="flex flex-col lg:flex-row items-center h-full w-full gap-5 lg:gap-28 mt-2 md:mt-10">
-          <div className="w-full lg:w-1/2 h-[300px] md:h-[380px]">
+          <div className="w-full lg:w-1/2 border-2 border-dashed border-orange-400 p-5 rounded-2xl h-[300px] md:h-[380px]">
             <img
-              className="w-full h-full rounded-md object-cover"
-              src="https://res.cloudinary.com/ddnb10zkq/image/upload/f_auto,q_auto:low,c_scale,w_800/v1735630404/x_bytenoon_assets/aboutUs/tq9icg0l2fplvc8ghytf.jpg"
+              className="w-full h-full rounded-md object-contain"
+              src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742204827/Image-Shree/Symbol/ilj3fja3jc1pzek3qq84.png"
               alt=""
             />
           </div>
@@ -75,19 +75,19 @@ const HomeService = () => {
               Read More
             </Button> */}
           </div>
-          <div className="w-full lg:w-1/2 h-[300px] md:h-[380px]">
+          <div className="w-full lg:w-1/2 border-2 border-dashed border-orange-400 p-5 rounded-2xl h-[300px] md:h-[380px]">
             <img
-              className="w-full h-full rounded-md object-cover"
-              src="https://res.cloudinary.com/ddnb10zkq/image/upload/f_auto,q_auto:low,c_scale,w_800/v1735630404/x_bytenoon_assets/aboutUs/anovhyl4syrstkj80jva.jpg"
+              className="w-full h-full rounded-md object-contain"
+              src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742204828/Image-Shree/Symbol/bxhu8dhuyz5cbqnae35p.png"
               alt=""
             />
           </div>
         </div>
         <div className="flex flex-col lg:flex-row items-center gap-5 lg:gap-28 mt-10 md:mt-20">
-          <div className="w-full lg:w-1/2 h-[300px] md:h-[380px]">
+          <div className="w-full lg:w-1/2 border-2 border-dashed border-orange-400 p-5 rounded-2xl h-[300px] md:h-[380px]">
             <img
-              className="w-full h-full rounded-md object-cover"
-              src="https://res.cloudinary.com/dinknhjnp/image/upload/f_auto,q_auto:low,c_scale,w_800/v1735642366/bytenoon/n72he8uwv2elrkvjynhj.avif"
+              className="w-full h-full rounded-md object-contain"
+              src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742204827/Image-Shree/Symbol/rsless5lnmn6mwvnhddt.png"
               alt=""
             />
           </div>
@@ -149,10 +149,10 @@ const HomeService = () => {
               Read More
             </Button> */}
           </div>
-          <div className="w-full lg:w-1/2 h-[300px] md:h-[380px]">
+          <div className="w-full lg:w-1/2 border-2 border-dashed border-orange-400 p-5 rounded-2xl h-[300px] md:h-[380px]">
             <img
-              className="w-full h-full rounded-md object-cover"
-              src="https://res.cloudinary.com/ddnb10zkq/image/upload/f_auto,q_auto:low,c_scale,w_800/v1735630404/x_bytenoon_assets/aboutUs/anovhyl4syrstkj80jva.jpg"
+              className="w-full h-full rounded-md object-contain"
+              src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742204827/Image-Shree/Symbol/qqcjyplteq1xfksd3lj0.png"
               alt=""
             />
           </div>

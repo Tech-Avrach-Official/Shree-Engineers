@@ -7,7 +7,7 @@ const GridSection = () => {
         <div className="w-full md:w-[40%] h-full relative rounded-lg overflow-hidden">
           <div className="group h-full md:h-full overflow-hidden">
             <img
-              src="https://iso.500px.com/wp-content/uploads/2018/05/Blog-marketplace-getty500px-48429366-nologo-3000x2000.png"
+              src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742558807/Image-Shree/Home-page/efzphjhwfeu9ambjz798.jpg"
               alt="Kelingking Beach"
               className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
             />
@@ -41,7 +41,7 @@ const GridSection = () => {
               <div className="relative w-full h-full rounded-lg overflow-hidden">
                 <div className="group h-full w-full overflow-hidden">
                   <img
-                    src="https://iso.500px.com/wp-content/uploads/2018/05/Blog-marketplace-getty500px-48429366-nologo-3000x2000.png"
+                    src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559349/Image-Shree/Home-page/y1yyynimdbnzp12rcd89.jpg"
                     alt="Kelingking Beach"
                     className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
                   />
@@ -74,7 +74,7 @@ const GridSection = () => {
               <div className="relative h-full w-full rounded-lg overflow-hidden">
                 <div className="group h-full  overflow-hidden">
                   <img
-                    src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg"
+                    src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559347/Image-Shree/Home-page/payefxd3mwoqszdgujga.jpg"
                     alt="Kelingking Beach"
                     className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
                   />
@@ -108,7 +108,7 @@ const GridSection = () => {
             <div className="relative w-full h-full rounded-lg overflow-hidden">
               <div className="group h-full md:h-full overflow-hidden">
                 <img
-                  src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg"
+                  src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742558784/Image-Shree/Home-page/omzdwky7ffuht3ml1wir.jpg"
                   alt="Kelingking Beach"
                   className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
                 />

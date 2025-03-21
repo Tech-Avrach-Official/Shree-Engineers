@@ -16,7 +16,7 @@ const HeaderCarousel = () => {
   const slides = [
     {
       id: 1,
-      image: 'https://images.unsplash.com/photo-1575936123452-b67c3203c357?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D',
+      image: 'https://res.cloudinary.com/dhf8eyjee/image/upload/v1742558645/Image-Shree/Home-page/xms0smquypiuv46pyjtw.jpg',
       title: 'Welcome to Our Platform',
       description: 'Discover amazing features and services tailored just for you',
       buttonText: 'Get Started',
@@ -24,20 +24,20 @@ const HeaderCarousel = () => {
     },
     {
       id: 2,
-      image: 'https://iso.500px.com/wp-content/uploads/2018/05/Blog-marketplace-getty500px-48429366-nologo-3000x2000.png',
+      image: 'https://res.cloudinary.com/dhf8eyjee/image/upload/v1742558596/Image-Shree/Home-page/zmbm7bt6caz0s3dapf5f.jpg',
       title: 'Professional Solutions',
       description: 'We provide top-quality services for all your business needs',
       buttonText: 'Our Services',
       buttonLink: '#services',
     },
-    {
-      id: 3,
-      image: 'https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg',
-      title: 'Join Our Community',
-      description: 'Connect with thousands of users and grow your network',
-      buttonText: 'Sign Up Now',
-      buttonLink: '#signup',
-    },
+    // {
+    //   id: 3,
+    //   image: 'https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg',
+    //   title: 'Join Our Community',
+    //   description: 'Connect with thousands of users and grow your network',
+    //   buttonText: 'Sign Up Now',
+    //   buttonLink: '#signup',
+    // },
   ];
 
   return (
@@ -64,7 +64,7 @@ const HeaderCarousel = () => {
                 alt={slide.title} 
                 className="absolute inset-0 w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-black opacity-50"></div>
+              <div className="absolute inset-0 bg-black opacity-70"></div>
             </div>
           </SwiperSlide>
         ))}

@@ -21,7 +21,7 @@ const Home = () => {
     <HeaderCarousel/>
     <GridSection/>
     <HomeService/>
-    <Symbol/>
+    {/* <Symbol/> */}
     {/* <HomeContent/> */}
     {/* <Service/> */}
     {/* <Info/> */}
