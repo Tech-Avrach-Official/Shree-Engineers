@@ -28,8 +28,9 @@ const Divider = () => {
   return (
     <div  className="relative w-full h-full"
      style={{
-            backgroundImage: "url('https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg')",
+            backgroundImage: "url('https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559347/Image-Shree/Home-page/vxox8sinilvoxxwtck1r.jpg')",
             backgroundSize: "cover",
+            backgroundPosition: "center",
         }}
     >
       {/* Background Image */}
@@ -66,13 +67,13 @@ const Divider = () => {
           <div className="grid grid-cols-2 gap-8">
             {stats.map((stat, index) => (
               <div key={index}>
-                <div className="bg-[#00000086] py-5 rounded-lg">
+                <div className="bg-[#ffffff98] py-5 rounded-lg">
                   <div className="flex items-center justify-center">
                     <div className="w-16 h-16 bg-[#283B59] rounded-full flex items-center justify-center">
                     <stat.icon size={32} className="text-white mx-auto" />
                     </div>
                   </div>
-                  <div className="mt-3 text-white">
+                  <div className="mt-3 text-black">
                     <h3 className="font-semibold text-lg text-center">{stat.title}</h3>
                     {/* <p className="text-sm text-gray-400 text-center">{stat.description}</p> */}
                   </div>

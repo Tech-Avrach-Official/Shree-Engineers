@@ -16,7 +16,7 @@ const HeaderCarousel = () => {
   const slides = [
     {
       id: 1,
-      image: 'https://res.cloudinary.com/dhf8eyjee/image/upload/v1742558645/Image-Shree/Home-page/xms0smquypiuv46pyjtw.jpg',
+      image: 'https://res.cloudinary.com/dhf8eyjee/image/upload/v1742801375/Image-Shree/Home-page/zt4zwfpaxzjdlvz8zo63.jpg',
       title: 'Welcome to Our Platform',
       description: 'Discover amazing features and services tailored just for you',
       buttonText: 'Get Started',

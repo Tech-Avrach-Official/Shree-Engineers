@@ -105,7 +105,7 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
               className="bg-white rounded-lg shadow-md"
             >
               <div className="h-56 relative">
-                <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg" className='w-full h-full object-cover rounded-t-lg' alt="" />
+                <img src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742628106/Image-Shree/Service%20page/uamkthz3radlmrkgufv2.jpg" className='w-full h-full object-cover rounded-t-lg' alt="" />
                 {/* <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div> */}
               </div>
               <div className="p-6 relative">
@@ -138,7 +138,7 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
               className="bg-white rounded-lg overflow-hidden shadow-md"
             >
               <div className="h-56 relative">
-                <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg" className='w-full h-full object-cover rounded-t-lg' alt="" />
+                <img src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742628148/Image-Shree/Service%20page/li0ikwekulxahckde1dt.jpg" className='w-full h-full object-cover rounded-t-lg' alt="" />
                 {/* <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div> */}
               </div>
               <div className="p-6 pt-8 relative">
@@ -171,7 +171,7 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
               className="bg-white rounded-lg overflow-hidden shadow-md"
             >
               <div className="h-56 relative">
-                <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg" className='w-full h-full object-cover rounded-t-lg' alt="" />
+                <img src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742628128/Image-Shree/Service%20page/nsrptrpuivknng9vfpjo.jpg" className='w-full h-full object-cover rounded-t-lg' alt="" />
                 {/* <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div> */}
               </div>
               <div className="p-6 pt-8 relative">
@@ -210,13 +210,13 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
             variants={fadeIn}
-            className="bg-white rounded-lg shadow-md p-8 mb-12"
+            className="bg-white h-full w-full rounded-lg shadow-md p-8 mb-12"
           >
             <h3 className="text-2xl font-bold text-[#283B59] mb-8 border-l-4 border-orange-400 pl-4">
               Hot Insulation Services
             </h3>
-            <div className="flex flex-col lg:flex-row gap-10">
-              <div className="flex-1 py-5">
+            <div className="h-full w-full flex flex-col items-center justify-center lg:flex-row gap-10">
+              <div className="w-full lg:w-1/2 py-5">
                 <p className="text-gray-600 text-justify mb-4">
                   In Cement Industry and likewise industries, only in process energy loss to be prevented while in Chemicals and Pharmaceutical Industries energy loss and gain both are required to be prevented to ensure system performance and to achieve consistent product quality.
                 </p>
@@ -227,8 +227,8 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
                   SHREE ENGINEERS with the gained expertise of thermal insulation for more than 20 years provides total protection without any seams, overlaps or joints to cause short- or long-term failures and to prevent in process energy loss.
                 </p>
               </div>
-              <div className="flex-1 min-h-64 rounded-lg shadow-md">
-                <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg" className='w-full h-full object-cover rounded-lg' alt="" />
+              <div className="w-full lg:w-1/2 rounded-lg shadow-md">
+                <img src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742628106/Image-Shree/Service%20page/uamkthz3radlmrkgufv2.jpg" className='w-full max-h-[400px] object-cover rounded-lg' alt="" />
               </div>
             </div>
           </motion.div>
@@ -244,11 +244,11 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
             <h3 className="text-2xl font-bold text-[#283B59] mb-8 border-l-4 border-orange-400 pl-4">
               Cold Insulation Services
             </h3>
-            <div className="flex flex-col lg:flex-row gap-10">
-            <div className="flex-1 min-h-64 rounded-lg shadow-md">
-                <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg" className='w-full h-full object-cover rounded-lg' alt="" />
+            <div className="w-full h-full items-center justify-center flex flex-col lg:flex-row gap-10">
+            <div className="w-full lg:w-1/2 rounded-lg shadow-md">
+                <img src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742628148/Image-Shree/Service%20page/li0ikwekulxahckde1dt.jpg" className='w-full max-h-[400px] object-cover rounded-lg' alt="" />
               </div>
-              <div className="flex-1 py-5 order-1 lg:order-2">
+              <div className="w-full lg:w-1/2 py-5 order-1 lg:order-2">
                 <p className="text-gray-600 text-justify mb-4">
                   In industries like Chemical and Pharmaceuticals, both in process energy loss and energy gain need to be averted. A static temperature required to be maintained in the process.
                 </p>
@@ -273,8 +273,8 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
             <h3 className="text-2xl font-bold text-[#283B59] mb-8 border-l-4 border-orange-400 pl-4">
               Acoustic Insulation Services
             </h3>
-            <div className="flex flex-col lg:flex-row gap-10">
-              <div className="flex-1 py-5">
+            <div className="flex flex-col items-center justify-center lg:flex-row gap-10">
+              <div className="w-full lg:w-1/2 py-5">
                 <p className="text-gray-600 text-justify mb-4">
                   We offer a wide range of acoustic insulation products and with the excellent acoustic insulation properties of glass mineral wool, the Earth wool sound reducing insulation products can be used in new build separating walls, partitions, and floors, as well as for the upgrade of existing buildings.
                 </p>
@@ -285,8 +285,8 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
                   Our team of hardworking professionals make sure that correct procedure and optimum quality material is employed in management of these services.
                 </p>
               </div>
-              <div className="flex-1 min-h-64 rounded-lg shadow-md">
-                <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg" className='w-full h-full object-cover rounded-lg' alt="" />
+              <div className="w-full lg:w-1/2 rounded-lg shadow-md">
+                <img src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742628128/Image-Shree/Service%20page/nsrptrpuivknng9vfpjo.jpg" className='w-full max-h-[400px] object-cover rounded-lg' alt="" />
               </div>
             </div>
           </motion.div>

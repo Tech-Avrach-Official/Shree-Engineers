@@ -6,7 +6,7 @@ const Service = () => {
     <div className='px-4 sm:px-8 md:px-16 lg:px-24 xl:px-40 py-10 md:py-10'>
         <div className='p-4 sm:p-6 md:p-10 rounded-md bg-gray-100 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10'>
             <div className='h-64 sm:h-80 md:h-full'>
-                <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg" className='w-full h-full rounded-md object-cover' alt="Service image" />
+                <img src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559347/Image-Shree/Home-page/x1tocw6df1i40ebwvxnw.jpg" className='w-full h-full rounded-md object-cover' alt="Service image" />
             </div>
             <div>
               {/* <p className='text-base sm:text-lg font-semibold'>Advantages</p> */}

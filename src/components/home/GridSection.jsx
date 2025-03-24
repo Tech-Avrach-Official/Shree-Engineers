@@ -36,13 +36,14 @@ const GridSection = () => {
           </div>
         </div>
         <div className="w-full md:w-[60%] h-full flex flex-col gap-5">
-          <div className="w-full h-full md:h-1/2 grid grid-cols-1 md:grid-cols-2 gap-5">
-            <div className="h-full w-full">
-              <div className="relative w-full h-full rounded-lg overflow-hidden">
+          <div className="w-full overflow-hidden h-full md:h-1/2 grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div className="h-full overflow-hidden w-full">
+              <div className="relative h-full w-full rounded-lg overflow-hidden">
                 <div className="group h-full w-full overflow-hidden">
                   <img
-                    src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559349/Image-Shree/Home-page/y1yyynimdbnzp12rcd89.jpg"
+                    src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559346/Image-Shree/Home-page/qyqwtsa6p6nqcsktlrif.jpg"
                     alt="Kelingking Beach"
+                    id="top-image"
                     className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent text-white">
@@ -72,7 +73,7 @@ const GridSection = () => {
             </div>
             <div className="h-full w-full">
               <div className="relative h-full w-full rounded-lg overflow-hidden">
-                <div className="group h-full  overflow-hidden">
+                <div className="group h-full w-full overflow-hidden">
                   <img
                     src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559347/Image-Shree/Home-page/payefxd3mwoqszdgujga.jpg"
                     alt="Kelingking Beach"
@@ -106,7 +107,7 @@ const GridSection = () => {
           </div>
           <div className="w-full h-full md:h-1/2">
             <div className="relative w-full h-full rounded-lg overflow-hidden">
-              <div className="group h-full md:h-full overflow-hidden">
+              <div className="group h-full w-full overflow-hidden">
                 <img
                   src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742558784/Image-Shree/Home-page/omzdwky7ffuht3ml1wir.jpg"
                   alt="Kelingking Beach"
@@ -139,7 +140,6 @@ const GridSection = () => {
           </div>
         </div>
       </div>
-
     </div>
   );
 };

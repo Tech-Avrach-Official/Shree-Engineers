@@ -64,7 +64,7 @@ const WhyInfo = () => {
         <button className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors">
           Explore Services
         </button> */}
-        <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg" className="w-full h-full object-cover rounded-lg" alt="" />
+        <img src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559347/Image-Shree/Home-page/vxox8sinilvoxxwtck1r.jpg" className="w-full min-h-[250px] h-full object-cover rounded-lg" alt="" />
       </div>
      </div>
     </div>
