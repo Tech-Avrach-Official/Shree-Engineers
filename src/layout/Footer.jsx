@@ -5,6 +5,7 @@ import facebook from '../assets/facebook.svg'
 import linkedin from '../assets/linkedin.svg'
 // import twitter from '../assets/twitter.svg'
 import whatsapp from '../assets/whatsapp.svg'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const whatsappNumber = "918718812605"
@@ -28,10 +29,12 @@ const Footer = () => {
           <div className="col-span-1">
             <h3 className="text-white text-xl mb-4">Navigation</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-white transition">Home</a></li>
-              <li><a href="#" className="hover:text-white transition">About Us</a></li>
-              <li><a href="#" className="hover:text-white transition">Services</a></li>
-              <li><a href="#" className="hover:text-white transition">Features</a></li>
+              <li><Link to='/' className="hover:text-white transition">Home</Link></li>
+              <li><Link to='/about' className="hover:text-white transition">About Us</Link></li>
+              <li><Link to='/services' className="hover:text-white transition">Services</Link></li>
+              <li><Link to='/gallery' className="hover:text-white transition">Gallery</Link></li>
+              <li><Link to='/projects' className="hover:text-white transition">Clientele</Link></li>
+              <li><Link to='/contact' className="hover:text-white transition">Contact</Link></li>
             </ul>
           </div>
 

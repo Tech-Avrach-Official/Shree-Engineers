@@ -9,18 +9,21 @@ const TabGallery = () => {
   // Sample gallery content (replace with your actual content)
   const galleryContent = {
     images: [
-      'https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg',
-      'https://iso.500px.com/wp-content/uploads/2018/05/Blog-marketplace-getty500px-48429366-nologo-3000x2000.png',
-      'https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg',
-      'https://iso.500px.com/wp-content/uploads/2018/05/Blog-marketplace-getty500px-48429366-nologo-3000x2000.png',
-      'https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg',
-      'https://iso.500px.com/wp-content/uploads/2018/05/Blog-marketplace-getty500px-48429366-nologo-3000x2000.png',
-      'https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg',
-      'https://iso.500px.com/wp-content/uploads/2018/05/Blog-marketplace-getty500px-48429366-nologo-3000x2000.png',
-      'https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg',
-      'https://iso.500px.com/wp-content/uploads/2018/05/Blog-marketplace-getty500px-48429366-nologo-3000x2000.png',
-      'https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg',
-      'https://iso.500px.com/wp-content/uploads/2018/05/Blog-marketplace-getty500px-48429366-nologo-3000x2000.png',
+      'https://res.cloudinary.com/dhf8eyjee/image/upload/v1742803326/Image-Shree/Home-page/kxvmqymmjhrf6hb0rp5h.jpg',
+      'https://res.cloudinary.com/dhf8eyjee/image/upload/v1742801375/Image-Shree/Home-page/zt4zwfpaxzjdlvz8zo63.jpg',
+      'https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559349/Image-Shree/Home-page/unazyxjvrime8mprtrln.jpg',
+      'https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559349/Image-Shree/Home-page/y1yyynimdbnzp12rcd89.jpg',
+      'https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559349/Image-Shree/Home-page/x2ijl7xboeu5dttetfpy.jpg',
+      'https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559349/Image-Shree/Home-page/nfz1ye4d4eyhqtoksztb.jpg',
+      'https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559348/Image-Shree/Home-page/juh5jsyr3iq70zq4nr2d.jpg',
+      'https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559347/Image-Shree/Home-page/x1tocw6df1i40ebwvxnw.jpg',
+      'https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559347/Image-Shree/Home-page/bimkdtgcquz0tn3pe5vc.jpg',
+      'https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559347/Image-Shree/Home-page/vxox8sinilvoxxwtck1r.jpg',
+      'https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559347/Image-Shree/Home-page/payefxd3mwoqszdgujga.jpg',
+      'https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559346/Image-Shree/Home-page/qb0ilogkzbmsfuew3g7l.jpg',
+      'https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559346/Image-Shree/Home-page/qyqwtsa6p6nqcsktlrif.jpg',
+      'https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559346/Image-Shree/Home-page/iik3s5jvfuhiu9ttdoly.jpg',
+      'https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559346/Image-Shree/Home-page/ewyc3gfjhrgto11ukx8o.jpg',
      
     ],
     // videos: [

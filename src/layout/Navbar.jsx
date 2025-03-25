@@ -133,13 +133,13 @@ const Navbar = () => {
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            className="md:hidden"
+            className="md:hidden pb-3"
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: 'easeInOut' }}
           >
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 ">
+            <div className="px-2 pt-2 pb-1 space-y-1 sm:px-3 ">
               {links.map((link) => (
                 <Link
                   key={link.to}
@@ -156,6 +156,19 @@ const Navbar = () => {
                 </Link>
               ))}
             </div>
+            <Link
+                  key={"/contact"}
+                  to={"/contact"}
+                  className={`block ${
+                    isActive('/contact')
+                      ? 'text-white bg-orange-400 font-semibold'
+                      : 'text-gray-500'
+                  } ${
+                    scrollPosition > 100 ? 'text-white' : ''
+                  } hover:bg-indigo-50 hover:text-indigo-600 ml-2 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
+                >
+                  Contact
+                </Link>
           </motion.div>
         )}
       </AnimatePresence>
