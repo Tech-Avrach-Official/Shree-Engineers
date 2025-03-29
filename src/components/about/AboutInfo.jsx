@@ -6,13 +6,13 @@ const AboutInfo = () => {
       <div className='h-full w-full bg-gray-100 p-5 md:p-10 rounded-2xl'>
         <div>
           <h1 className='text-2xl sm:text-3xl md:text-4xl font-bold text-center'>About</h1>
-          <p className='text-justify mt-5 text-gray-600'><span className='font-bold text-[#283B59]'>Shree Engineers & Contractors Limited</span>, A One Stop Solution for Thermal Insulations service, takes much pride for being one of the pioneers in the thermal insulation industry. an ISO 9001:2015 and 45001:2018 certified Company, our expertise encompasses a wide range of insulation services, including thermal insulation for both hot and cold applications, as well as acoustic insulation for noise reduction. We are committed to delivering tailored solutions that meet the unique needs of each project, ensuring optimal performance and long-lasting results
+          <p className='text-justify mt-5 text-gray-600'><span className='font-bold text-[#283B59]'>Shree Engineers & Contractors Limited</span>, A One Stop Solution for Thermal Insulations service, takes much pride for being one of the pioneers in the thermal insulation industry. An ISO 9001:2015 and 45001:2018 certified Company, our expertise encompasses a wide range of insulation services, including thermal insulation for both hot and cold applications, as well as acoustic insulation for noise reduction. We are committed to delivering customized solutions that meet the unique needs of each project, ensuring optimal performance and long-lasting results.
             <br />
             <br />
             The company is managed by a team of qualified, energetic and dynamic Engineers who always are in search of better avenues. Quality work and timely deliverance are our key strengths which all our customers appreciate and recognize. Our mission is customer satisfaction. By providing personalized attention to individual customers to meet their expectations and to ensure their full satisfaction is our mission.
             <br />
             <br />
-            Our team is competent enough to handle the most typical task and at challenging environment which give us an edge over competition. We are striving for excellence and it is our sincere endeavour to make our presence felt in all segments. To achieve this goal your patronage is solicited - We welcome your valuable feedback and suggestions.
+            Our team is competent enough to handle the most typical task and at challenging environment which give us an edge over competition. We are striving for excellence and it is our sincere endeavour to make our presence felt in all segments. To achieve this goal your patronage is solicited.
             <br />
             <p className='font-semibold text-gray-600 mt-2'>Warm Regards :- <span className='font-bold text-black'>Mr. Amit Tiwari</span></p>
           </p>

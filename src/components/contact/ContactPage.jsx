@@ -242,11 +242,8 @@ const ContactPage = () => {
             <div>
               <h3 className="font-semibold text-lg mb-1">New Delhi</h3>
               <p className="text-gray-600">
-              Shree Engineers & Contractors Pvt. Ltd.	
-						B-107, 4TH Floor,DDA Shed,
-						Okhla Industrial area, Phase-I,
-						New Delhi - 110020
-
+                Shree Engineers & Contractors Pvt. Ltd. B-107, 4TH Floor,DDA
+                Shed, Okhla Industrial area, Phase-I, New Delhi - 110020
               </p>
             </div>
           </div>
@@ -289,9 +286,8 @@ const ContactPage = () => {
             <div>
               <h3 className="font-semibold text-lg mb-1">Mumbai</h3>
               <p className="text-gray-600">
-              Shree Engineers & Contractors Pvt. Ltd.
-						C-501, Groma House, Opp. Dana Bazaar, APMC Market-2
-						Sector 19A, Vashi Navi Mumbai-400 705
+                Shree Engineers & Contractors Pvt. Ltd. C-501, Groma House, Opp.
+                Dana Bazaar, APMC Market-2 Sector 19A, Vashi Navi Mumbai-400 705
               </p>
             </div>
           </div>
@@ -408,8 +404,15 @@ const ContactPage = () => {
       {/* Contact Form Section */}
       <div className="grid grid-cols-1 p-5 rounded-xl md:p-10 bg-gray-100 md:grid-cols-2 gap-5 md:gap-10">
         <div className="w-full h-auto bg-gray-200 min-h-80">
-          <iframe
+          {/* <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.1691312421544!2d75.59259177507771!3d22.572776779491633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39625120dc848675%3A0x941728317abae187!2sSHREE%20INSULATIONS%20INDIA%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1741173244438!5m2!1sen!2sin"
+            width="100%"
+            height="100%"
+            className="min-h-80"
+            loading="lazy"
+          ></iframe> */}
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.2496891683277!2d75.86413357508225!3d22.718958979387697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd1220eaaaab%3A0x14592226dcea62fb!2sPrem%20Trade%20Center!5e0!3m2!1sen!2sin!4v1743234328328!5m2!1sen!2sin"
             width="100%"
             height="100%"
             className="min-h-80"

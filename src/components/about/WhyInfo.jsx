@@ -40,9 +40,9 @@ const WhyInfo = () => {
      <div className='py-10'>
       <div>
         <h1 className='text-center text-2xl font-bold'>Shree Engineers & Contractors Limited</h1>
-        <p className="text-base mt-5 text-justify text-gray-600 mb-4">Shree Engineers & Contractors Limited, an ISO 9001:2015 and 45001:2018 certified Company, is a leading service provider of hot, cold, and acoustic insulation solutions. With more than 20 years of experience serving diverse industrial segments, our company is renowned for its expertise and commitment to excellence. Our team of highly qualified and experienced engineers is dedicated to continuous innovation and the pursuit of exceptional opportunities.</p>
+        <p className="text-base mt-5 text-justify text-gray-600 mb-4">An ISO 9001:2015 and 45001:2018 certified Company, is a leading service provider of hot, cold, and acoustic insulation solutions. With more than 20 years of experience serving diverse industrial segments, our company is renowned for its expertise and commitment to excellence. A team of highly qualified and experienced engineers is dedicated to continuous innovation and the pursuit of exceptional opportunities.</p>
       </div>
-     <div className="grid grid-cols-1 md:grid-cols-2 mt-5 lg:grid-cols-2 gap-6">
+     {/* <div className="grid grid-cols-1 md:grid-cols-2 mt-5 lg:grid-cols-2 gap-6">
         {services.map((service, index) => (
           <div 
             key={index} 
@@ -52,10 +52,10 @@ const WhyInfo = () => {
               <service.icon size={20} />
             </div>
             <h3 className="text-lg font-bold mb-3">{service.title}</h3>
-            {/* <p className="text-gray-600 text-sm">{service.description}</p> */}
           </div>
         ))}
-      </div>
+      </div> */}
+        {/* <p className="text-gray-600 text-sm">{service.description}</p> */}
      </div>
 
       <div className="h-full w-full">

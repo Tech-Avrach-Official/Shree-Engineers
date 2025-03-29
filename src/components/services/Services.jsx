@@ -218,13 +218,13 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
             <div className="h-full w-full flex flex-col items-center justify-center lg:flex-row gap-10">
               <div className="w-full lg:w-1/2 py-5">
                 <p className="text-gray-600 text-justify mb-4">
-                  In Cement Industry and likewise industries, only in process energy loss to be prevented while in Chemicals and Pharmaceutical Industries energy loss and gain both are required to be prevented to ensure system performance and to achieve consistent product quality.
+                In certain industries, only in process energy loss to be prevented while in Chemicals and Pharmaceutical Industries energy loss and gain both are required to be prevented to ensure system performance and to achieve consistent product quality.
                 </p>
                 <p className="text-gray-600 text-justify mb-4">
                   With hot insulation it is imperative to prevent moisture from entering the insulation system, as this will reduce the system's performance and can contribute to corrosion of the underlying pipes, vessels, flanges, valves, etc.
                 </p>
                 <p className="text-gray-600 text-justify">
-                  SHREE ENGINEERS with the gained expertise of thermal insulation for more than 20 years provides total protection without any seams, overlaps or joints to cause short- or long-term failures and to prevent in process energy loss.
+                SHREE ENGINEERS with the gained expertise of thermal insulation for more than 2 decades provides total protection without any seams, overlaps or joints to cause short- or long-term failures and to prevent in process energy loss.
                 </p>
               </div>
               <div className="w-full lg:w-1/2 rounded-lg shadow-md">
@@ -256,7 +256,7 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
                   The greater the temperature difference between ambient and process temperature, the greater the "pull" of moisture to the pipe/vessel surface, and consequently, the greater the need for an effective and durable cold insulation system.
                 </p>
                 <p className="text-gray-600 text-justify">
-                  SHREE ENGINEERS renders highly reliable Cold Insulation. For keeping the ambient temperature well within the required parameter Cold Roof Insulation is an ideal solution. It is commonly used for the safe storage of different kinds of material with low shelf life.
+                SHREE ENGINEERS renders highly reliable Cold Insulation including cryogenic grade insulation application.
                 </p>
               </div>
             </div>
@@ -276,7 +276,7 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
             <div className="flex flex-col items-center justify-center lg:flex-row gap-10">
               <div className="w-full lg:w-1/2 py-5">
                 <p className="text-gray-600 text-justify mb-4">
-                  We offer a wide range of acoustic insulation products and with the excellent acoustic insulation properties of glass mineral wool, the Earth wool sound reducing insulation products can be used in new build separating walls, partitions, and floors, as well as for the upgrade of existing buildings.
+                We offer a wide range of acoustic insulation products and with the excellent acoustic insulation properties of glass mineral wool, the Earth wool sound reducing insulation products can be used in new built separating walls, partitions, and floors, as well as for the upgrade of existing buildings.
                 </p>
                 <p className="text-gray-600 text-justify mb-4">
                   Offered insulation services are extensively used to reduce noise through the walls applied in various industries and sectors. Offered services are accomplished by determining the flanking transmission that refers to passage of sound through walls & floors.

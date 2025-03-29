@@ -1,5 +1,5 @@
 import React from 'react'
-import { Calendar, CalendarClock, Settings, Shield, ShieldCheck, Users } from 'lucide-react'
+import { Calendar, CalendarClock, CircleCheck, Settings, Shield, ShieldCheck, Users } from 'lucide-react'
 
 const Service = () => {
   return (
@@ -11,7 +11,7 @@ const Service = () => {
             <div>
               {/* <p className='text-base sm:text-lg font-semibold'>Advantages</p> */}
               <h1 className='text-2xl mt-2 md:mt-3 font-bold'>Our Expertise</h1>
-              <p className='text-sm sm:text-base text-justify text-gray-600 mt-2 md:mt-5'>With years of experience and a team of skilled professionals, we bring a wealth of expertise to every project. We collaborate closely with our clients to deliver apt solutions that meet specific requirements and exceed expectations.</p>
+              <p className='text-sm sm:text-base text-justify text-gray-600 mt-2 md:mt-5'>With decades of experience and a team of skilled professionals, we bring a wealth of expertise to every project. We collaborate closely with our clients to deliver apt solutions that meet specific requirements and exceed expectations.</p>
               <div className='grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-5 mt-3 sm:mt-5'>
                 <div className='p-3 sm:p-5 bg-white rounded-md'>
                   <ShieldCheck size={24} className="sm:w-8 text-[#283B59] sm:h-8" />
@@ -25,7 +25,12 @@ const Service = () => {
                 </div>
                 <div className='p-3 sm:p-5 bg-white rounded-md'>
                   <CalendarClock size={24} className="sm:w-8 text-[#283B59] sm:h-8" />
-                  <h2 className='text-lg mt-2 font-semibold text-[#283B59]'>ACOUSTIC INSULATIONS.</h2>
+                  <h2 className='text-lg mt-2 font-semibold text-[#283B59]'>ACOUSTIC INSULATIONS</h2>
+                  {/* <p className='text-xs sm:text-sm text-gray-600 line-clamp-2 mt-1'>Being industry expert we provide quick response.</p> */}
+                </div>
+                <div className='p-3 sm:p-5 bg-white rounded-md'>
+                  <CircleCheck size={24} className="sm:w-8 text-[#283B59] sm:h-8" />
+                  <h2 className='text-lg mt-2 font-semibold text-[#283B59]'>DUCTING</h2>
                   {/* <p className='text-xs sm:text-sm text-gray-600 line-clamp-2 mt-1'>Being industry expert we provide quick response.</p> */}
                 </div>
                 {/* <div className='p-3 sm:p-5 bg-white rounded-md'>
