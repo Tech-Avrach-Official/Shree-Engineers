@@ -51,7 +51,7 @@ const Footer = () => {
             <ul className="space-y-2 text-[#283B59]">
               <li>8718812605</li>
               <li>info@shreeengineers.in</li>
-              <li>416, Prem Trade Centre, Maharani Road, Indore, Madhya Pradesh, India 452007</li>
+              <li>416, Prem Trade Centre, Maharani Road, Indore, <br />  Madhya Pradesh, India 452007</li>
             </ul>
           </div>
 
