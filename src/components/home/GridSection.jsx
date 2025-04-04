@@ -11,10 +11,10 @@ const GridSection = () => {
               alt="Kelingking Beach"
               className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
             />
-            <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent text-white">
+            {/* <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent text-white">
               <h3 className="text-xl font-bold">Kelingking Beach</h3>
               <p className="text-sm opacity-80">Nusa Penida, Bali</p>
-            </div>
+            </div> */}
             <div className="absolute bottom-4 right-4">
               <button className="bg-[#283B59] rounded-full p-2 text-white">
                 <svg
@@ -46,10 +46,10 @@ const GridSection = () => {
                     id="top-image"
                     className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
                   />
-                  <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent text-white">
+                  {/* <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent text-white">
                     <h3 className="text-xl font-bold">Kelingking Beach</h3>
                     <p className="text-sm opacity-80">Nusa Penida, Bali</p>
-                  </div>
+                  </div> */}
                   <div className="absolute bottom-4 right-4">
                     <button className="bg-[#283B59] rounded-full p-2 text-white">
                       <svg
@@ -79,10 +79,10 @@ const GridSection = () => {
                     alt="Kelingking Beach"
                     className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
                   />
-                  <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent text-white">
+                  {/* <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent text-white">
                     <h3 className="text-xl font-bold">Kelingking Beach</h3>
                     <p className="text-sm opacity-80">Nusa Penida, Bali</p>
-                  </div>
+                  </div> */}
                   <div className="absolute bottom-4 right-4">
                     <button className="bg-[#283B59] rounded-full p-2 text-white">
                       <svg
@@ -113,10 +113,10 @@ const GridSection = () => {
                   alt="Kelingking Beach"
                   className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
                 />
-                <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent text-white">
+                {/* <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent text-white">
                   <h3 className="text-xl font-bold">Kelingking Beach</h3>
                   <p className="text-sm opacity-80">Nusa Penida, Bali</p>
-                </div>
+                </div> */}
                 <div className="absolute bottom-4 right-4">
                   <button className="bg-[#283B59] rounded-full p-2 text-white">
                     <svg

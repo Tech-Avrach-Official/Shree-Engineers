@@ -19,7 +19,7 @@ const ContactPage = () => {
     <div className="px-4 py-20 md:px-20 lg:px-40 gap-8">
       {/* Header Section */}
       <div className="mb-16">
-        <h1 className="text-lg text-center font-semibold">CONTACT US</h1>
+        {/* <h1 className="text-lg text-center font-semibold">CONTACT US</h1> */}
         <h2 className="text-4xl font-bold text-center mt-2">
           We Are Ready To Help You
         </h2>
@@ -64,7 +64,7 @@ const ContactPage = () => {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-1">Open Timing</h3>
-              <p className="text-gray-600">Mon - Sat: 10:30 AM - 7:30 PM</p>
+              <p className="text-gray-600">10:00 AM - 7:00 PM</p>
             </div>
           </div>
         </div>
@@ -320,18 +320,7 @@ const ContactPage = () => {
         </div>
 
         {/* Kolkata */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          {/* <div className="flex items-center p-6 border border-gray-200 rounded-md">
-            <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
-                <MapPin className="text-orange-400" size={28} />
-              </div>
-            </div>
-            <div>
-              <h3 className="font-semibold text-lg mb-1">Kolkata</h3>
-              <p className="text-gray-600">Kolkata, India</p>
-            </div>
-          </div> */}
+        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
 
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
@@ -368,21 +357,9 @@ const ContactPage = () => {
               <p className="text-gray-600">09943275456</p>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        {/* Chennai */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* <div className="flex items-center p-6 border border-gray-200 rounded-md">
-            <div className="flex-shrink-0 mr-4">
-              <div className="w-14 h-14 bg-gray-100 rounded-md flex items-center justify-center">
-                <MapPin className="text-orange-400" size={28} />
-              </div>
-            </div>
-            <div>
-              <h3 className="font-semibold text-lg mb-1">Chennai</h3>
-              <p className="text-gray-600">Old No. 43, New No. 24, 1 Floor, Trunk Road, Porur, Chennai, India - 600116</p>
-            </div>
-          </div> */}
+        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
@@ -398,7 +375,7 @@ const ContactPage = () => {
               <p className="text-gray-600">jmr@shreecera.co.in</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Contact Form Section */}

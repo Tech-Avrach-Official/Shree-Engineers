@@ -47,9 +47,9 @@ const ThermalInsulationServices = () => {
           >
            SHREE ENGINEERS & CONTRACTORS LIMITED 
           </motion.h1>
-          <span className="bg-[#283B59] w-fit px-4 py-1 rounded-full text-sm mb-5 text-white border-opacity-20">
+          {/* <span className="bg-[#283B59] w-fit px-4 py-1 rounded-full text-sm mb-5 text-white border-opacity-20">
             ISO 9001:2008 Certified
-          </span>
+          </span> */}
           <motion.p 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -228,7 +228,7 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
                 </p>
               </div>
               <div className="w-full lg:w-1/2 rounded-lg shadow-md">
-                <img src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742628106/Image-Shree/Service%20page/uamkthz3radlmrkgufv2.jpg" className='w-full max-h-[400px] object-cover rounded-lg' alt="" />
+                <img src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1743762376/Image-Shree/Home-page/fc6geubsursjrtmvumlm.jpg" className='w-full md:min-h-[350px] max-h-[400px] object-cover rounded-lg' alt="" />
               </div>
             </div>
           </motion.div>
@@ -246,7 +246,7 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
             </h3>
             <div className="w-full h-full items-center justify-center flex flex-col lg:flex-row gap-10">
             <div className="w-full lg:w-1/2 rounded-lg shadow-md">
-                <img src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742628148/Image-Shree/Service%20page/li0ikwekulxahckde1dt.jpg" className='w-full max-h-[400px] object-cover rounded-lg' alt="" />
+                <img src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1743762386/Image-Shree/Home-page/que0keav1nqum0nrgg8r.jpg" className='w-full max-h-[400px] object-cover rounded-lg' alt="" />
               </div>
               <div className="w-full lg:w-1/2 py-5 order-1 lg:order-2">
                 <p className="text-gray-600 text-justify mb-4">
