@@ -1,162 +1,20 @@
 // data.js
 export const industries = [
-    "CEMENT INDUSTRY",
-    "PHARMACEUTICAL & BULK DRUGS",
-    "REFINERIES",
-    "POWER INDUSTRIES",
-    "AUTOMOBILE INDUSTRIES",
-    "PROCESS INDUSTRIES",
-    "PAPER INDUSTRIES",
-    "STEEL INDUSTRIES",
-    "CHEMICALS & FERTILIZERS",
-    "SOLVENT EXTRACTION PLANTS",
-    "TEXTILES INDUSTRIES",
-    "OXYGEN"
+  "PHARMACEUTICAL & BULK DRUGS",
+  "REFINERIES",
+  "POWER INDUSTRIES",
+  "AUTOMOBILE INDUSTRIES",
+  "PROCESS INDUSTRIES",
+  "PAPER INDUSTRIES",
+  "STEEL INDUSTRIES",
+  "CHEMICALS & FERTILIZERS",
+  "SOLVENT EXTRACTION PLANTS",
+  "TEXTILES INDUSTRIES",
+  "OXYGEN",
+  "CEMENT INDUSTRY"
 ];
 
 export const clientsData = {
-    "CEMENT INDUSTRY": [
-    {
-      "id": "cement-1",
-      "name": "Ultratech Cement Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690787/Image-Shree/cement/pgxoj9fdqdjp6lqbxqiw.png",
-      "location": "Jhajjar (Haryana) Rajshree (KN)",
-      "projectValue": "Approx value 2100 Lacs"
-    },
-    {
-      "id": "cement-2",
-      "name": "Dalmia Cement (B) Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741700609/Image-Shree/cement/rz7vshnoitwlbe2d6rv9.png",
-      "location": "Belgaum (KN) / Kadappa",
-      "projectValue": "Approx value 900 Lacs"
-    },
-    {
-      "id": "cement-3",
-      "name": "ABG Cement Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741691058/Image-Shree/cement/dxwkhmobvazndx3s85oe.png",
-      "location": "Kutch & Surat (Gujarat)",
-      "projectValue": "Approx value 850 Lacs"
-    },
-    {
-      "id": "cement-4",
-      "name": "Chettinad Cement Corpn. Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690006/Image-Shree/cement/tqxla7wmv6lhtrir8xdu.png",
-      "location": "Karnataka",
-      "projectValue": "Approx value 530 Lacs"
-    },
-    {
-      "id": "cement-5",
-      "name": "J.K. Laxmi Cement Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690006/Image-Shree/cement/l0iye7dpyjz9kerr05vy.jpg",
-      "location": "Rajasthan/CG, Projects",
-      "projectValue": "Approx value 750 Lacs"
-    },
-    {
-      "id": "cement-6",
-      "name": "Wonder Cement Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690008/Image-Shree/cement/vnpoq48ecp1sjj7xkktm.jpg",
-      "location": "Udaipur - Rajasthan",
-      "projectValue": "Approx value 419 Lacs"
-    },
-    {
-      "id": "cement-7",
-      "name": "Manikgarh Cement Pvt.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690007/Image-Shree/cement/jbzfhtqv5zr1wrbkzmuh.jpg",
-      "location": "Gadchandur",
-      "projectValue": "Approx value 650 Lacs"
-    },
-    {
-      "id": "cement-8",
-      "name": "ACC Limited",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741691190/Image-Shree/cement/dg6koutfcjk0554cdq0k.png",
-      "location": "Kymore",
-      "projectValue": "Approx value 300 Lacs"
-    },
-    {
-      "id": "cement-9",
-      "name": "Ambuja Cement Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690007/Image-Shree/cement/jbzfhtqv5zr1wrbkzmuh.jpg",
-      "location": "Bhatapara (Raj.), Project",
-      "projectValue": "Approx value 150 Lacs"
-    },
-    {
-      "id": "cement-10",
-      "name": "Mangalam Cement Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690006/Image-Shree/cement/yl9xw9xiasxz71s6octd.png",
-      "location": "Morak, Rajasthan",
-      "projectValue": "Approx value 150 Lacs"
-    },
-    {
-      "id": "cement-11",
-      "name": "India Cement Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690006/Image-Shree/cement/onksvhipmqnchrvszxpb.avif",
-      "location": "Chilmakur (AP) & Shankar Nagar",
-      "projectValue": "Approx value 100 Lacs"
-    },
-    {
-      "id": "cement-12",
-      "name": "ACC Cement Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741691190/Image-Shree/cement/dg6koutfcjk0554cdq0k.png",
-      "location": "Chanda/Gagghal/Wadi Projects",
-      "projectValue": "Approx value 100 Lacs"
-    },
-    {
-      "id": "cement-13",
-      "name": "OCL Bengal Cement Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690007/Image-Shree/cement/y1tfdlx1u23rppnqh8re.png",
-      "location": "Works, Midnapur",
-      "projectValue": "Approx value 56.35 Lacs"
-    },
-    {
-      "id": "cement-14",
-      "name": "Vikram Cement, Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741691335/Image-Shree/cement/alufs3jxmtlsfnkgux2i.png",
-      "location": "Khor, Neemuch (M.P.)",
-      "projectValue": "Approx value 53 Lacs"
-    },
-    {
-      "id": "cement-15",
-      "name": "Ultratech Cement Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690787/Image-Shree/cement/pgxoj9fdqdjp6lqbxqiw.png",
-      "location": "Dhankuni",
-      "projectValue": "Approx value 25 Lacs"
-    },
-    {
-      "id": "cement-16",
-      "name": "NCL Industries Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690007/Image-Shree/cement/lp3cshsvqekug2bvhcud.gif",
-      "location": "Hyderabad",
-      "projectValue": "Approx value 95 Lacs"
-    },
-    {
-      "id": "cement-17",
-      "name": "OCL India Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690006/Image-Shree/cement/bxxo8fouddnkycaiqavi.jpg",
-      "location": "Rajgangpur (Simon)",
-      "projectValue": "Approx value 114 Lacs"
-    },
-    {
-      "id": "cement-18",
-      "name": "Shree Cement Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690007/Image-Shree/cement/iwjejeta4dpoi4nnodqr.png",
-      "location": "Beawar/Suratgarh",
-      "projectValue": "Approx value 300 Lacs"
-    },
-    {
-      "id": "cement-19",
-      "name": "Tancem Cement Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690007/Image-Shree/cement/jpwgd12cd3xebhhvrmik.png",
-      "location": "(L & T Construction)",
-      "projectValue": "Approx value 192 Lacs"
-    },
-    {
-      "id": "cement-20",
-      "name": "Thyssen Krupp Industries Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690008/Image-Shree/cement/mgt7d5hhyshtvsikoanu.png",
-      "location": "(UTCL Hlrmi Project)",
-      "projectValue": "Approx value 100 Lacs"
-    }
-  ],
     "PHARMACEUTICAL & BULK DRUGS": [
     {
       "id": "pharma-1",
@@ -723,6 +581,148 @@ export const clientsData = {
       "name": "BOC India Ltd.",
       "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741700494/Image-Shree/Oxygen/zij5uj2xwgnwdiflvkly.png",
       "location": "Kolkata",
+      "projectValue": "Approx value 100 Lacs"
+    }
+  ],
+  "CEMENT INDUSTRY": [
+    {
+      "id": "cement-1",
+      "name": "Ultratech Cement Ltd.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690787/Image-Shree/cement/pgxoj9fdqdjp6lqbxqiw.png",
+      "location": "Jhajjar (Haryana) Rajshree (KN)",
+      "projectValue": "Approx value 2100 Lacs"
+    },
+    {
+      "id": "cement-2",
+      "name": "Dalmia Cement (B) Ltd.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741700609/Image-Shree/cement/rz7vshnoitwlbe2d6rv9.png",
+      "location": "Belgaum (KN) / Kadappa",
+      "projectValue": "Approx value 900 Lacs"
+    },
+    {
+      "id": "cement-3",
+      "name": "ABG Cement Ltd.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741691058/Image-Shree/cement/dxwkhmobvazndx3s85oe.png",
+      "location": "Kutch & Surat (Gujarat)",
+      "projectValue": "Approx value 850 Lacs"
+    },
+    {
+      "id": "cement-4",
+      "name": "Chettinad Cement Corpn. Ltd.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690006/Image-Shree/cement/tqxla7wmv6lhtrir8xdu.png",
+      "location": "Karnataka",
+      "projectValue": "Approx value 530 Lacs"
+    },
+    {
+      "id": "cement-5",
+      "name": "J.K. Laxmi Cement Ltd.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690006/Image-Shree/cement/l0iye7dpyjz9kerr05vy.jpg",
+      "location": "Rajasthan/CG, Projects",
+      "projectValue": "Approx value 750 Lacs"
+    },
+    {
+      "id": "cement-6",
+      "name": "Wonder Cement Ltd.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690008/Image-Shree/cement/vnpoq48ecp1sjj7xkktm.jpg",
+      "location": "Udaipur - Rajasthan",
+      "projectValue": "Approx value 419 Lacs"
+    },
+    {
+      "id": "cement-7",
+      "name": "Manikgarh Cement Pvt.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690007/Image-Shree/cement/jbzfhtqv5zr1wrbkzmuh.jpg",
+      "location": "Gadchandur",
+      "projectValue": "Approx value 650 Lacs"
+    },
+    {
+      "id": "cement-8",
+      "name": "ACC Limited",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741691190/Image-Shree/cement/dg6koutfcjk0554cdq0k.png",
+      "location": "Kymore",
+      "projectValue": "Approx value 300 Lacs"
+    },
+    {
+      "id": "cement-9",
+      "name": "Ambuja Cement Ltd.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690007/Image-Shree/cement/jbzfhtqv5zr1wrbkzmuh.jpg",
+      "location": "Bhatapara (Raj.), Project",
+      "projectValue": "Approx value 150 Lacs"
+    },
+    {
+      "id": "cement-10",
+      "name": "Mangalam Cement Ltd.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690006/Image-Shree/cement/yl9xw9xiasxz71s6octd.png",
+      "location": "Morak, Rajasthan",
+      "projectValue": "Approx value 150 Lacs"
+    },
+    {
+      "id": "cement-11",
+      "name": "India Cement Ltd.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690006/Image-Shree/cement/onksvhipmqnchrvszxpb.avif",
+      "location": "Chilmakur (AP) & Shankar Nagar",
+      "projectValue": "Approx value 100 Lacs"
+    },
+    {
+      "id": "cement-12",
+      "name": "ACC Cement Ltd.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741691190/Image-Shree/cement/dg6koutfcjk0554cdq0k.png",
+      "location": "Chanda/Gagghal/Wadi Projects",
+      "projectValue": "Approx value 100 Lacs"
+    },
+    {
+      "id": "cement-13",
+      "name": "OCL Bengal Cement Ltd.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690007/Image-Shree/cement/y1tfdlx1u23rppnqh8re.png",
+      "location": "Works, Midnapur",
+      "projectValue": "Approx value 56.35 Lacs"
+    },
+    {
+      "id": "cement-14",
+      "name": "Vikram Cement, Ltd.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741691335/Image-Shree/cement/alufs3jxmtlsfnkgux2i.png",
+      "location": "Khor, Neemuch (M.P.)",
+      "projectValue": "Approx value 53 Lacs"
+    },
+    {
+      "id": "cement-15",
+      "name": "Ultratech Cement Ltd.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690787/Image-Shree/cement/pgxoj9fdqdjp6lqbxqiw.png",
+      "location": "Dhankuni",
+      "projectValue": "Approx value 25 Lacs"
+    },
+    {
+      "id": "cement-16",
+      "name": "NCL Industries Ltd.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690007/Image-Shree/cement/lp3cshsvqekug2bvhcud.gif",
+      "location": "Hyderabad",
+      "projectValue": "Approx value 95 Lacs"
+    },
+    {
+      "id": "cement-17",
+      "name": "OCL India Ltd.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690006/Image-Shree/cement/bxxo8fouddnkycaiqavi.jpg",
+      "location": "Rajgangpur (Simon)",
+      "projectValue": "Approx value 114 Lacs"
+    },
+    {
+      "id": "cement-18",
+      "name": "Shree Cement Ltd.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690007/Image-Shree/cement/iwjejeta4dpoi4nnodqr.png",
+      "location": "Beawar/Suratgarh",
+      "projectValue": "Approx value 300 Lacs"
+    },
+    {
+      "id": "cement-19",
+      "name": "Tancem Cement Ltd.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690007/Image-Shree/cement/jpwgd12cd3xebhhvrmik.png",
+      "location": "(L & T Construction)",
+      "projectValue": "Approx value 192 Lacs"
+    },
+    {
+      "id": "cement-20",
+      "name": "Thyssen Krupp Industries Ltd.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690008/Image-Shree/cement/mgt7d5hhyshtvsikoanu.png",
+      "location": "(UTCL Hlrmi Project)",
       "projectValue": "Approx value 100 Lacs"
     }
   ]

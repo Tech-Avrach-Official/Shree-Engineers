@@ -105,7 +105,7 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
               className="bg-white rounded-lg shadow-md"
             >
               <div className="h-56 relative">
-                <img src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742628106/Image-Shree/Service%20page/uamkthz3radlmrkgufv2.jpg" className='w-full h-full object-cover rounded-t-lg' alt="" />
+                <img src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742559346/Image-Shree/Home-page/iik3s5jvfuhiu9ttdoly.jpg" className='w-full h-full object-cover rounded-t-lg' alt="" />
                 {/* <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div> */}
               </div>
               <div className="p-6 relative">
@@ -138,7 +138,7 @@ In industry, energy has to be expended to raise, lower, or maintain the temperat
               className="bg-white rounded-lg overflow-hidden shadow-md"
             >
               <div className="h-56 relative">
-                <img src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1742628148/Image-Shree/Service%20page/li0ikwekulxahckde1dt.jpg" className='w-full h-full object-cover rounded-t-lg' alt="" />
+                <img src="https://res.cloudinary.com/dhf8eyjee/image/upload/v1743845820/Image-Shree/Home-page/p719yrjnvudr3yeubxzy.jpg" className='w-full h-full object-cover rounded-t-lg' alt="" />
                 {/* <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div> */}
               </div>
               <div className="p-6 pt-8 relative">

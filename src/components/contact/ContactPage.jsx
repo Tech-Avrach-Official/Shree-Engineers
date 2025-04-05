@@ -18,8 +18,7 @@ const ContactPage = () => {
   return (
     <div className="px-4 py-20 md:px-20 lg:px-40 gap-8">
       {/* Header Section */}
-      <div className="mb-16">
-        {/* <h1 className="text-lg text-center font-semibold">CONTACT US</h1> */}
+      {/* <div className="mb-16">
         <h2 className="text-4xl font-bold text-center mt-2">
           We Are Ready To Help You
         </h2>
@@ -27,7 +26,6 @@ const ContactPage = () => {
           <div className="w-20 h-1 bg-orange-400"></div>
         </div>
 
-        {/* Main Contact Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="flex items-center p-6 border border-gray-200 rounded-md">
             <div className="flex-shrink-0 mr-4">
@@ -68,7 +66,7 @@ const ContactPage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Registered Offices Section */}
       <div className="mb-16">
@@ -102,8 +100,7 @@ const ContactPage = () => {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-1">Phone</h3>
-              <p className="text-gray-600">0731-4972217, 0731-4266310</p>
-              <p className="text-gray-600">08718812602, 09713008217</p>
+              <p className="text-gray-600">+91-8718812605</p>
             </div>
           </div>
 
