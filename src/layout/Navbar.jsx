@@ -35,6 +35,7 @@ const Navbar = () => {
     { to: '/services', label: 'Services' },
     { to: '/gallery', label: 'Gallery' },
     { to: '/projects', label: 'Clientele' },
+     { to: '/investorrelations', label: 'Investor Relations' }, 
     // { to: '/contact', label: 'Contact' },
   ];
 
