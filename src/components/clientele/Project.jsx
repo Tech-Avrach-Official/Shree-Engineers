@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { industries, clientsData } from './Data';
 
 const Project = () => {
-  const [activeIndustry, setActiveIndustry] = useState("CEMENT INDUSTRY");
+  const [activeIndustry, setActiveIndustry] = useState("EPC");
 
   return (
     <div className="flex flex-col md:flex-row min-h-screen bg-gray-50">
@@ -126,12 +126,12 @@ const ClientCard = ({ client, index }) => {
         <h2 className="text-base mt-2 font-semibold text-gray-800">{client.name}</h2>
       </div>
       
-      <div className="p-6">
+      {/* <div className="p-6">
         <div className="flex">
           <div className="w-32 flex-shrink-0 text-gray-500 font-medium">Project Value:</div>
           <div className="text-[#283B59] font-medium">{client.projectValue || "N/A"}</div>
         </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 };

@@ -1,5 +1,7 @@
 // data.js
 export const industries = [
+  "EPC",
+  "HYDRO-CARBONS",
   "PHARMACEUTICAL & BULK DRUGS",
   "REFINERIES",
   "POWER INDUSTRIES",
@@ -11,10 +13,147 @@ export const industries = [
   "SOLVENT EXTRACTION PLANTS",
   "TEXTILES INDUSTRIES",
   "OXYGEN",
-  "CEMENT INDUSTRY"
+  "CEMENT INDUSTRY",
 ];
 
 export const clientsData = {
+     "EPC": [
+  {
+    "id": "epc-1",
+    "name": "EIL",
+    "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1781174488/Screenshot_2026-06-11_160822_dys75t.png",
+    "location": "HRRL - Barmer",
+    "projectValue": "Approx value 100 Lacs"
+  },
+  {
+    "id": "epc-2",
+    "name": "Worley",
+    "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1781174488/Screenshot_2026-06-11_160830_rgefhi.png",
+    "location": "Vadodara - Gujarat",
+    "projectValue": "Approx value 100 Lacs"
+  },
+  {
+    "id": "epc-3",
+    "name": "Petrofac",
+    "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1781174488/Screenshot_2026-06-11_160837_zr6e7k.png",
+    "location": "Vizag - Andhra Pradesh",
+    "projectValue": "Approx value 100 Lacs"
+  },
+  {
+    "id": "epc-4",
+    "name": "thyssenkrupp",
+    "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1781174488/Screenshot_2026-06-11_160848_i5afsa.png",
+    "location": "IOCL - Panipat",
+    "projectValue": "Approx value 100 Lacs"
+  },
+  {
+    "id": "epc-5",
+    "name": "Technip Energies",
+    "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1781174489/Screenshot_2026-06-11_160856_bdcbza.png",
+    "location": "Barmer - Rajasthan",
+    "projectValue": "Approx value 100 Lacs"
+  },
+  {
+    "id": "epc-6",
+    "name": "McDermott",
+    "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1781174490/Screenshot_2026-06-11_160904_zsccxq.png",
+    "location": "IOCL - Barauni",
+    "projectValue": "Approx value 100 Lacs"
+  },
+  {
+    "id": "epc-7",
+    "name": "L&T Energy Hydrocarbon",
+    "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1781175938/78dd2256-b8fe-48ad-9fdd-92ca4732fa17.png",
+    "location": "HRRL - Barmer",
+    "projectValue": "Approx value 100 Lacs"
+  },
+  {
+    "id": "epc-8",
+    "name": "BANDR",
+    "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1781174491/Screenshot_2026-06-11_160923_v0rykz.png",
+    "location": "GAIL - Usar",
+    "projectValue": "Approx value 100 Lacs"
+  },
+  {
+    "id": "epc-9",
+    "name": "Tuaman Engineering",
+    "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1781174492/Screenshot_2026-06-11_160938_gfonjo.png",
+    "location": "HRRL - Barmer",
+    "projectValue": "Approx value 100 Lacs"
+  },
+  {
+    "id": "epc-10",
+    "name": "Tata Projects",
+    "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1781174493/Screenshot_2026-06-11_160946_x4srw8.png",
+    "location": "HRRL - Barmer",
+    "projectValue": "Approx value 100 Lacs"
+  },
+  {
+    "id": "epc-11",
+    "name": "Sterling & Wilson",
+    "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1781174493/Screenshot_2026-06-11_160953_bu1ifr.png",
+    "location": "Chennai - Tamil Nadu",
+    "projectValue": "Approx value 100 Lacs"
+  },
+  {
+    "id": "epc-12",
+    "name": "Toyo Engineering",
+    "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1781174494/Screenshot_2026-06-11_161002_nf6lou.png",
+    "location": "Raigad - Mumbai",
+    "projectValue": "Approx value 100 Lacs"
+  },
+  {
+    "id": "epc-13",
+    "name": "OIL",
+    "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1781174495/Screenshot_2026-06-11_161010_tjffqw.png",
+    "location": "GAIL - Usar",
+    "projectValue": "Approx value 100 Lacs"
+  }
+],
+ "HYDRO-CARBONS": [
+  {
+    "id": "hydro-1",
+    "name": "GAIL (India) Limited",
+    "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1781176765/Screenshot_2026-06-11_164752_vyiepp.png",
+    "location": "Usar - Mumbai",
+    "projectValue": "Approx value 100 Lacs"
+  },
+  {
+    "id": "hydro-2",
+    "name": "HMEL",
+    "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1781176765/Screenshot_2026-06-11_164759_ss2nkr.png",
+    "location": "Bhatinda - Punjab",
+    "projectValue": "Approx value 100 Lacs"
+  },
+  {
+    "id": "hydro-3",
+    "name": "Bharat Petroleum (BPCL)",
+    "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1781176766/Screenshot_2026-06-11_164822_z1filf.png",
+    "location": "Uran - Mumbai",
+    "projectValue": "Approx value 100 Lacs"
+  },
+  {
+    "id": "hydro-4",
+    "name": "Hindustan Petroleum (HPCL)",
+    "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1781176767/Screenshot_2026-06-11_164829_mwusaf.png",
+    "location": "Barmer - Rajasthan",
+    "projectValue": "Approx value 100 Lacs"
+  },
+  {
+    "id": "hydro-5",
+    "name": "Indian Oil Corporation (IOCL)",
+    "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1781176768/Screenshot_2026-06-11_164835_w7sewo.png",
+    "location": "Panipat / Barauni",
+    "projectValue": "Approx value 100 Lacs"
+  },
+  {
+    "id": "hydro-6",
+    "name": "Essar Oil",
+    "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1781176769/Screenshot_2026-06-11_164841_tu4qcd.png",
+    "location": "Jamnagar - Gujarat",
+    "projectValue": "Approx value 100 Lacs"
+  }
+],
     "PHARMACEUTICAL & BULK DRUGS": [
     {
       "id": "pharma-1",
@@ -25,8 +164,8 @@ export const clientsData = {
     },
     {
       "id": "pharma-2",
-      "name": "Ranbaxy Laboratories Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741696585/Image-Shree/PHARMACEUTICAL/sxccfob13xxaiz1sxjf7.png",
+      "name": "SUN PHARMA Ltd.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177280/1de1f156-8d00-4d03-bd6d-bbabfd6134fe.png",
       "location": "Dewas (M.P.)",
       "projectValue": "Approx value 200 Lacs"
     },
@@ -724,6 +863,14 @@ export const clientsData = {
       "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690008/Image-Shree/cement/mgt7d5hhyshtvsikoanu.png",
       "location": "(UTCL Hlrmi Project)",
       "projectValue": "Approx value 100 Lacs"
+    },
+    {
+      "id": "cement-21",
+      "name": "Coromandel Future Positive Ltd.",
+      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1781177129/2a8f5ae9-e302-4003-a6f1-432782ee1424.png",
+      "location": "CHENNAI – TAMIL NADU",
+      "projectValue": "Approx value 150 Lacs"
     }
-  ]
+  ],
+
 };

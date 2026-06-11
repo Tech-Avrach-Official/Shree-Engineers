@@ -13,11 +13,11 @@ const Divider = () => {
       title: "500 + TASKFORCE",
       description: "Nec maecenas neque potenti felis eget."
     },
-    {
-      icon: CircleUser,
-      title: "40K+ CLIENTS",
-      description: "Nec maecenas neque potenti felis eget."
-    },
+    // {
+    //   icon: CircleUser,
+    //   title: "40K+ CLIENTS",
+    //   description: "Nec maecenas neque potenti felis eget."
+    // },
     // {
     //   icon: Phone,
     //   title: "Project Successful",
@@ -47,14 +47,14 @@ const Divider = () => {
       </div>
        */}
       {/* Content Container */}
-      <div className="relative bg-black/50 px-5 sm:px-20 lg:px-40 py-20 h-full w-full flex flex-col gap-20 md:flex-row items-center">
+      <div className="relative bg-black/50 px-5 sm:px-20 lg:px-40 py-28 h-full w-full flex flex-col gap-20 md:flex-row items-center">
         {/* Left Content */}
         <div className="w-full md:w-1/2">
           {/* <h6 className="text-gray-300 font-medium mb-2">Our commitments</h6> */}
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
+          <h1 className="text-4xl lg:text-6xl font-bold text-white mb-4">
           Quality, Safety and Punctuality 
           </h1>
-          <p className="text-gray-300 text-lg font-semibold mb-6 max-w-lg">
+          <p className="text-gray-300 text-xl font-semibold mb-6 max-w-lg">
           Our commitments
           </p>
           {/* <button className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-medium px-6 py-3 uppercase text-sm tracking-wider transition-colors duration-300">
@@ -64,17 +64,17 @@ const Divider = () => {
         
         {/* Right Content - Stats */}
         <div className="w-full md:w-1/2 ">
-          <div className="grid grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             {stats.map((stat, index) => (
               <div key={index}>
-                <div className="bg-[#ffffff98] py-5 rounded-lg">
+                <div className="bg-[#ffffff98] py-10 md:py-14 rounded-lg">
                   <div className="flex items-center justify-center">
-                    <div className="w-16 h-16 bg-[#283B59] rounded-full flex items-center justify-center">
+                    <div className="w-16 h-16 md:w-24 md:h-24 bg-[#283B59] rounded-full flex items-center justify-center">
                     <stat.icon size={32} className="text-white mx-auto" />
                     </div>
                   </div>
                   <div className="mt-3 text-black">
-                    <h3 className="font-semibold text-lg text-center">{stat.title}</h3>
+                    <h3 className="font-bold text-xl text-center">{stat.title}</h3>
                     {/* <p className="text-sm text-gray-400 text-center">{stat.description}</p> */}
                   </div>
                 </div>
