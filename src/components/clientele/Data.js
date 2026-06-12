@@ -334,13 +334,13 @@ export const clientsData = {
       "location": "Sipat, Korba, Vindhyangar, Chennai",
       "projectValue": "Approx value 80 Lacs"
     },
-    {
-      "id": "power-5",
-      "name": "NTPC Alstom Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741697734/Image-Shree/POWER/cz3mtyeqvgesuc5ahint.png",
-      "location": "Ukai / Wanakbori",
-      "projectValue": "Approx value 70 Lacs"
-    },
+    // {
+    //   "id": "power-5",
+    //   "name": "NTPC Alstom Ltd.",
+    //   "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741697734/Image-Shree/POWER/cz3mtyeqvgesuc5ahint.png",
+    //   "location": "Ukai / Wanakbori",
+    //   "projectValue": "Approx value 70 Lacs"
+    // },
     {
       "id": "power-6",
       "name": "Nuclear Power Corporation of India Ltd.",
@@ -376,34 +376,34 @@ export const clientsData = {
       "location": "Daramunda",
       "projectValue": "Approx value 70 Lacs"
     },
-    {
-      "id": "power-11",
-      "name": "Vadinar Power Company LTD.",
-      "logo": "https://via.placeholder.com/100",
-      "location": "(Essar Oil) Vadinar",
-      "projectValue": "Approx value 302 Lacs"
-    },
-    {
-      "id": "power-12",
-      "name": "Panipat Thermal Power Station Ltd.",
-      "logo": "https://via.placeholder.com/100",
-      "location": "Panipat Haryana",
-      "projectValue": "Approx value 70 Lacs"
-    },
-    {
-      "id": "power-13",
-      "name": "Vandana Vidyut Limited, Ltd.",
-      "logo": "https://via.placeholder.com/100",
-      "location": "Korba (CG)",
-      "projectValue": "Approx value 50 Lacs"
-    },
-    {
-      "id": "power-14",
-      "name": "Rajiv Gandhi Thermal Power Limited.",
-      "logo": "https://via.placeholder.com/100",
-      "location": "Hisar",
-      "projectValue": "Approx value 34 Lacs"
-    },
+    // {
+    //   "id": "power-11",
+    //   "name": "Vadinar Power Company LTD.",
+    //   "logo": "https://via.placeholder.com/100",
+    //   "location": "(Essar Oil) Vadinar",
+    //   "projectValue": "Approx value 302 Lacs"
+    // },
+    // {
+    //   "id": "power-12",
+    //   "name": "Panipat Thermal Power Station Ltd.",
+    //   "logo": "https://via.placeholder.com/100",
+    //   "location": "Panipat Haryana",
+    //   "projectValue": "Approx value 70 Lacs"
+    // },
+    // {
+    //   "id": "power-13",
+    //   "name": "Vandana Vidyut Limited, Ltd.",
+    //   "logo": "https://via.placeholder.com/100",
+    //   "location": "Korba (CG)",
+    //   "projectValue": "Approx value 50 Lacs"
+    // },
+    // {
+    //   "id": "power-14",
+    //   "name": "Rajiv Gandhi Thermal Power Limited.",
+    //   "logo": "https://via.placeholder.com/100",
+    //   "location": "Hisar",
+    //   "projectValue": "Approx value 34 Lacs"
+    // },
   ],
     "AUTOMOBILE INDUSTRIES": [
         {
@@ -648,20 +648,20 @@ export const clientsData = {
       "location": "Agro Ratlam",
       "projectValue": "Approx value 119 Lacs"
     },
-    {
-      "id": "solvent-5",
-      "name": "Satya Sai Agroils Pvt. Ltd.",
-      "logo": "https://via.placeholder.com/100",
-      "location": "Vidisha (M.P)",
-      "projectValue": "Approx value 11.50 Lacs"
-    },
-    {
-      "id": "solvent-6",
-      "name": "Dhanlaxmi Solvent Pvt. Ltd.",
-      "logo": "https://via.placeholder.com/100",
-      "location": "All Units",
-      "projectValue": "Approx value 150 Lacs"
-    },
+    // {
+    //   "id": "solvent-5",
+    //   "name": "Satya Sai Agroils Pvt. Ltd.",
+    //   "logo": "https://via.placeholder.com/100",
+    //   "location": "Vidisha (M.P)",
+    //   "projectValue": "Approx value 11.50 Lacs"
+    // },
+    // {
+    //   "id": "solvent-6",
+    //   "name": "Dhanlaxmi Solvent Pvt. Ltd.",
+    //   "logo": "https://via.placeholder.com/100",
+    //   "location": "All Units",
+    //   "projectValue": "Approx value 150 Lacs"
+    // },
   ],
   "TEXTILES INDUSTRIES": [
     {
@@ -692,20 +692,20 @@ export const clientsData = {
       "location": "Jhagdia, (Gujarat)",
       "projectValue": "Approx value 122 Lacs"
     },
-    {
-      "id": "textile-5",
-      "name": "Century Yarn PVT. LTD.",
-      "logo": "https://via.placeholder.com/100",
-      "location": "(MP)",
-      "projectValue": "Approx value 95 Lacs"
-    },
-    {
-      "id": "textile-6",
-      "name": "STI (India) Ltd.",
-      "logo": "https://via.placeholder.com/100",
-      "location": "(MP)",
-      "projectValue": "Approx value 113 Lacs"
-    }
+    // {
+    //   "id": "textile-5",
+    //   "name": "Century Yarn PVT. LTD.",
+    //   "logo": "https://via.placeholder.com/100",
+    //   "location": "(MP)",
+    //   "projectValue": "Approx value 95 Lacs"
+    // },
+    // {
+    //   "id": "textile-6",
+    //   "name": "STI (India) Ltd.",
+    //   "logo": "https://via.placeholder.com/100",
+    //   "location": "(MP)",
+    //   "projectValue": "Approx value 113 Lacs"
+    // }
   ],
   "OXYGEN": [
     {
