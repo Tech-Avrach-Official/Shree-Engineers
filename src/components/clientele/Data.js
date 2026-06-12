@@ -204,13 +204,13 @@ export const clientsData = {
       "location": "Nagpur & Goa",
       "projectValue": "Approx value 53 Lacs"
     },
-    {
-      "id": "pharma-8",
-      "name": "Lupin Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741696587/Image-Shree/PHARMACEUTICAL/hgfmroawsqqnrib78tva.png",
-      "location": "Pithampur (MP) / Tarapur",
-      "projectValue": "Approx value 375 Lacs"
-    },
+    // {
+    //   "id": "pharma-8",
+    //   "name": "Lupin Ltd.",
+    //   "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741696587/Image-Shree/PHARMACEUTICAL/hgfmroawsqqnrib78tva.png",
+    //   "location": "Pithampur (MP) / Tarapur",
+    //   "projectValue": "Approx value 375 Lacs"
+    // },
     {
       "id": "pharma-9",
       "name": "Jubilant Life Sciences Ltd.",
@@ -218,13 +218,13 @@ export const clientsData = {
       "location": "Bharuch (Guj.) / Mysore (KN)",
       "projectValue": "Approx value 643 Lacs"
     },
-    {
-      "id": "pharma-10",
-      "name": "Jubilant Infrastructures Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741696966/Image-Shree/PHARMACEUTICAL/suliiwjd7iyccyajhtny.png",
-      "location": "Bharuch (Guj)",
-      "projectValue": "Approx value 100 Lacs"
-    },
+    // {
+    //   "id": "pharma-10",
+    //   "name": "Jubilant Infrastructures Ltd.",
+    //   "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741696966/Image-Shree/PHARMACEUTICAL/suliiwjd7iyccyajhtny.png",
+    //   "location": "Bharuch (Guj)",
+    //   "projectValue": "Approx value 100 Lacs"
+    // },
     {
       "id": "pharma-11",
       "name": "Medilux Laboratories (P) Ltd.",
@@ -283,13 +283,13 @@ export const clientsData = {
             "location": "Taloja (MH)",
             "projectValue": "Approx value 25 Lacs"
           },
-          {
-            "id": "oil-7",
-            "name": "Indian Oil Corporation Limited.",
-            "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741697135/Image-Shree/REFINERIES/zkrpyancrrtmoyo36zcf.png",
-            "location": "Vadodara (KKS)",
-            "projectValue": "Approx value 105 Lacs"
-          },
+          // {
+          //   "id": "oil-7",
+          //   "name": "Indian Oil Corporation Limited.",
+          //   "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741697135/Image-Shree/REFINERIES/zkrpyancrrtmoyo36zcf.png",
+          //   "location": "Vadodara (KKS)",
+          //   "projectValue": "Approx value 105 Lacs"
+          // },
           {
             "id": "oil-8",
             "name": "Oil India Limited.",
@@ -450,13 +450,13 @@ export const clientsData = {
             "location": "Gandhidham (Guj)",
             "projectValue": "Approx value 150 Lacs"
           },
-          {
-            "id": "process-5",
-            "name": "SRF Ltd.",
-            "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741698861/Image-Shree/Process/flu7mpawjxbpmtkqmr6k.png",
-            "location": "Chennai / Kashipur Projects",
-            "projectValue": "Approx value 130 Lacs"
-          },
+          // {
+          //   "id": "process-5",
+          //   "name": "SRF Ltd.",
+          //   "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741698861/Image-Shree/Process/flu7mpawjxbpmtkqmr6k.png",
+          //   "location": "Chennai / Kashipur Projects",
+          //   "projectValue": "Approx value 130 Lacs"
+          // },
           {
             "id": "process-6",
             "name": "Polyplex Corporation Ltd.",
@@ -487,13 +487,13 @@ export const clientsData = {
             "location": "Bhigwan, Ballarshah (MH)",
             "projectValue": "Approx value 250 Lacs"
           },
-          {
-            "id": "paper-3",
-            "name": "BILT Graphic Paper Products Ltd.",
-            "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741699263/Image-Shree/Paper/ss9ibfjaigvmztlqub0p.jpg",
-            "location": "Ballarpur (MH)",
-            "projectValue": "Approx value 107 Lacs"
-          },
+          // {
+          //   "id": "paper-3",
+          //   "name": "BILT Graphic Paper Products Ltd.",
+          //   "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741699263/Image-Shree/Paper/ss9ibfjaigvmztlqub0p.jpg",
+          //   "location": "Ballarpur (MH)",
+          //   "projectValue": "Approx value 107 Lacs"
+          // },
           {
             "id": "paper-4",
             "name": "Tamil Nadu Paper Corporation Ltd.",
@@ -525,13 +525,13 @@ export const clientsData = {
             "location": "Torngallu (Karnataka)",
             "projectValue": "Approx value 611 Lacs"
           },
-          {
-            "id": "steel-2",
-            "name": "JSW Steel Ltd.",
-            "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741699527/Image-Shree/Still/pxymvkplrdy07tbvapaz.png",
-            "location": "Dolvi (Maharashtra)",
-            "projectValue": "Approx value 140 Lacs"
-          },
+          // {
+          //   "id": "steel-2",
+          //   "name": "JSW Steel Ltd.",
+          //   "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741699527/Image-Shree/Still/pxymvkplrdy07tbvapaz.png",
+          //   "location": "Dolvi (Maharashtra)",
+          //   "projectValue": "Approx value 140 Lacs"
+          // },
           {
             "id": "steel-3",
             "name": "JP Steel Plantech Co LTD.",
@@ -576,13 +576,13 @@ export const clientsData = {
             "location": "Cellulosic Divn, Bharuch",
             "projectValue": "Approx value 126 Lacs"
           },
-          {
-            "id": "chem-4",
-            "name": "Grasim Industries Ltd.",
-            "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741699677/Image-Shree/Chemicals/dfc6vw39feqlz5zbj9sa.png",
-            "location": "Chemical Division, Vilayat",
-            "projectValue": "Approx value 200 Lacs"
-          },
+          // {
+          //   "id": "chem-4",
+          //   "name": "Grasim Industries Ltd.",
+          //   "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741699677/Image-Shree/Chemicals/dfc6vw39feqlz5zbj9sa.png",
+          //   "location": "Chemical Division, Vilayat",
+          //   "projectValue": "Approx value 200 Lacs"
+          // },
           {
             "id": "chem-5",
             "name": "Gujarat State Fertilizer Corporation Limited.",
@@ -780,13 +780,13 @@ export const clientsData = {
       "location": "Kymore",
       "projectValue": "Approx value 300 Lacs"
     },
-    {
-      "id": "cement-9",
-      "name": "Ambuja Cement Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690007/Image-Shree/cement/jbzfhtqv5zr1wrbkzmuh.jpg",
-      "location": "Bhatapara (Raj.), Project",
-      "projectValue": "Approx value 150 Lacs"
-    },
+    // {
+    //   "id": "cement-9",
+    //   "name": "Ambuja Cement Ltd.",
+    //   "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690007/Image-Shree/cement/jbzfhtqv5zr1wrbkzmuh.jpg",
+    //   "location": "Bhatapara (Raj.), Project",
+    //   "projectValue": "Approx value 150 Lacs"
+    // },
     {
       "id": "cement-10",
       "name": "Mangalam Cement Ltd.",
@@ -801,13 +801,13 @@ export const clientsData = {
       "location": "Chilmakur (AP) & Shankar Nagar",
       "projectValue": "Approx value 100 Lacs"
     },
-    {
-      "id": "cement-12",
-      "name": "ACC Cement Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741691190/Image-Shree/cement/dg6koutfcjk0554cdq0k.png",
-      "location": "Chanda/Gagghal/Wadi Projects",
-      "projectValue": "Approx value 100 Lacs"
-    },
+    // {
+    //   "id": "cement-12",
+    //   "name": "ACC Cement Ltd.",
+    //   "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741691190/Image-Shree/cement/dg6koutfcjk0554cdq0k.png",
+    //   "location": "Chanda/Gagghal/Wadi Projects",
+    //   "projectValue": "Approx value 100 Lacs"
+    // },
     {
       "id": "cement-13",
       "name": "OCL Bengal Cement Ltd.",
@@ -822,13 +822,13 @@ export const clientsData = {
       "location": "Khor, Neemuch (M.P.)",
       "projectValue": "Approx value 53 Lacs"
     },
-    {
-      "id": "cement-15",
-      "name": "Ultratech Cement Ltd.",
-      "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690787/Image-Shree/cement/pgxoj9fdqdjp6lqbxqiw.png",
-      "location": "Dhankuni",
-      "projectValue": "Approx value 25 Lacs"
-    },
+    // {
+    //   "id": "cement-15",
+    //   "name": "Ultratech Cement Ltd.",
+    //   "logo": "https://res.cloudinary.com/dhf8eyjee/image/upload/v1741690787/Image-Shree/cement/pgxoj9fdqdjp6lqbxqiw.png",
+    //   "location": "Dhankuni",
+    //   "projectValue": "Approx value 25 Lacs"
+    // },
     {
       "id": "cement-16",
       "name": "NCL Industries Ltd.",
