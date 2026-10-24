@@ -17,7 +17,7 @@ const InvestorContent = () => {
       {/* Header */}
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold mb-4 text-orange-400">
-          Shree Engineers Pvt. Ltd.
+          SHREE ENGINEERS & CONTRACTORS LIMITED.
         </h2>
         <p className="text-gray-600 text-lg max-w-3xl mx-auto">
           At Shree Engineers , We consider Investor Relations to be the key to
